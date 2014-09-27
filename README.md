@@ -1,0 +1,33 @@
+stylecow plugin prefixes
+========================
+
+Stylecow plugin to add automatically all vendor prefixes needed
+
+You write:
+
+```css
+.foo {
+    user-select: none;
+    hyphens: auto;
+    transition: background-color 2s;
+}
+```
+
+And stylecow converts to:
+
+```css
+.foo {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    -moz-transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+    -o-transition: background-color 2s;
+    transition: background-color 2s;
+}
+```

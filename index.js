@@ -1,0 +1,25 @@
+module.exports = function (stylecow) {
+	require('./src/animation')(stylecow);
+	require('./src/appearance')(stylecow);
+	require('./src/background')(stylecow);
+	require('./src/border')(stylecow);
+	require('./src/box-shadow')(stylecow);
+	require('./src/box-sizing')(stylecow);
+	require('./src/calc')(stylecow);
+	require('./src/column')(stylecow);
+	require('./src/cursor')(stylecow);
+	require('./src/document')(stylecow);
+	require('./src/fullscreen')(stylecow);
+	require('./src/inline-block')(stylecow);
+	require('./src/grid')(stylecow);
+	require('./src/mask')(stylecow);
+	require('./src/object')(stylecow);
+	require('./src/pseudoelements')(stylecow);
+	require('./src/region')(stylecow);
+	require('./src/sizing')(stylecow);
+	require('./src/sticky')(stylecow);
+	require('./src/transform')(stylecow);
+	require('./src/transition')(stylecow);
+	require('./src/typography')(stylecow);
+	require('./src/user-select')(stylecow);
+};
