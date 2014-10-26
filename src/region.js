@@ -9,11 +9,11 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, 'region-fragment')) {
+				if (declaration.is({name: 'region-fragment'})) {
 					return declaration.cloneBefore().name = '-webkit-region-fragment';
 				}
 
-				if (declaration.is(null, /^flow/)) {
+				if (declaration.is({name: /^flow/})) {
 					return declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			}
@@ -25,7 +25,7 @@ module.exports = function (stylecow) {
 				explorer: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^flow/)) {
+				if (declaration.is({name: /^flow/})) {
 					return declaration.cloneBefore().name = '-ms-' + declaration.name;
 				}
 			}

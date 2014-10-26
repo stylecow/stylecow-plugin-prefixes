@@ -1,4 +1,5 @@
 module.exports = function (stylecow) {
+
 	stylecow.addTask([
 		// Adds -moz- vendor prefixes
 		{
@@ -6,7 +7,7 @@ module.exports = function (stylecow) {
 				firefox: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^column/)) {
+				if (declaration.is({name: /^column/})) {
 					declaration.cloneBefore().name = '-moz-' + declaration.name;
 				}
 			}
@@ -21,7 +22,7 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^column/)) {
+				if (declaration.is({name: /^column/})) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			}

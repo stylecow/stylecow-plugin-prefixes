@@ -7,8 +7,8 @@ module.exports = function (stylecow) {
 			},
 			Declaration: {
 				'cursor': function (declaration) {
-					if (declaration.has('Keyword', ['zoom-in', 'zoom-out'])) {
-						declaration.cloneBefore().search('Keyword', ['zoom-in', 'zoom-out']).forEach(function (keyword) {
+					if (declaration.has({type: 'Keyword', name: ['zoom-in', 'zoom-out']})) {
+						declaration.cloneBefore().search({type: 'Keyword', name: ['zoom-in', 'zoom-out']}).forEach(function (keyword) {
 							keyword.name = '-moz-' + keyword;
 						});
 					}
@@ -23,8 +23,8 @@ module.exports = function (stylecow) {
 			},
 			Declaration: {
 				'cursor': function (declaration) {
-					if (declaration.has('Keyword', ['grab', 'grabbing'])) {
-						declaration.cloneBefore().search('Keyword', ['grab', 'grabbing']).forEach(function (keyword) {
+					if (declaration.has({type: 'Keyword', name: ['grab', 'grabbing']})) {
+						declaration.cloneBefore().search({type: 'Keyword', name: ['grab', 'grabbing']}).forEach(function (keyword) {
 							keyword.name = '-moz-' + keyword;
 						});
 					}
@@ -42,8 +42,8 @@ module.exports = function (stylecow) {
 			},
 			Declaration: {
 				'cursor': function (declaration) {
-					if (declaration.has('Keyword', ['zoom-in', 'zoom-out', 'grab', 'grabbing'])) {
-						declaration.cloneBefore().search('Keyword', ['zoom-in', 'zoom-out', 'grab', 'grabbing']).forEach(function (keyword) {
+					if (declaration.has({type: 'Keyword', name: ['zoom-in', 'zoom-out', 'grab', 'grabbing']})) {
+						declaration.cloneBefore().search({type: 'Keyword', name: ['zoom-in', 'zoom-out', 'grab', 'grabbing']}).forEach(function (keyword) {
 							keyword.name = '-webkit-' + keyword;
 						});
 					}

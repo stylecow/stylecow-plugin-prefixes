@@ -1,4 +1,5 @@
 module.exports = function (stylecow) {
+
 	stylecow.addTask([
 		//Adds -moz-full-screen vendor prefix
 		{
@@ -6,8 +7,8 @@ module.exports = function (stylecow) {
 				firefox: false
 			},
 			Rule: function (rule) {
-				if (rule.has('Keyword', ':fullscreen')) {
-					rule.cloneBefore().search('Keyword', ':fullscreen').forEach(function (keyword) {
+				if (rule.has({type: 'Keyword', name: ':fullscreen'})) {
+					rule.cloneBefore().search({type: 'Keyword', name: ':fullscreen'}).forEach(function (keyword) {
 						keyword.name = ':-moz-full-screen';
 					});
 				}
@@ -23,8 +24,8 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Rule: function (rule) {
-				if (rule.has('Keyword', ':fullscreen')) {
-					rule.cloneBefore().search('Keyword', ':fullscreen').forEach(function (keyword) {
+				if (rule.has({type: 'Keyword', name: ':fullscreen'})) {
+					rule.cloneBefore().search({type: 'Keyword', name: ':fullscreen'}).forEach(function (keyword) {
 						keyword.name = ':-webkit-full-screen';
 					});
 				}
@@ -37,8 +38,8 @@ module.exports = function (stylecow) {
 				explorer: false
 			},
 			Rule: function (rule) {
-				if (rule.has('Keyword', ':fullscreen')) {
-					rule.cloneBefore().search('Keyword', ':fullscreen').forEach(function (keyword) {
+				if (rule.has({type: 'Keyword', name: ':fullscreen'})) {
+					rule.cloneBefore().search({type: 'Keyword', name: ':fullscreen'}).forEach(function (keyword) {
 						keyword.name = ':-ms-fullscreen';
 					});
 				}

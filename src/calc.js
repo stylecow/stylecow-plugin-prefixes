@@ -1,4 +1,5 @@
 module.exports = function (stylecow) {
+
 	stylecow.addTask([
 		//Adds -moz- vendor prefix
 		{
@@ -6,8 +7,8 @@ module.exports = function (stylecow) {
 				firefox: 16.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.has('Function', 'calc')) {
-					declaration.cloneBefore().search('Function', 'calc').forEach(function (fn) {
+				if (declaration.has({type: 'Function', name: 'calc'})) {
+					declaration.cloneBefore().search({type: 'Function', name: 'calc'}).forEach(function (fn) {
 						fn.name = '-moz-' + fn.name;
 					});
 				}
@@ -22,8 +23,8 @@ module.exports = function (stylecow) {
 				ios: 7.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.has('Function', 'calc')) {
-					declaration.cloneBefore().search('Function', 'calc').forEach(function (fn) {
+				if (declaration.has({type: 'Function', name: 'calc'})) {
+					declaration.cloneBefore().search({type: 'Function', name: 'calc'}).forEach(function (fn) {
 						fn.name = '-webkit-' + fn.name;
 					});
 				}

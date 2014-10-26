@@ -10,7 +10,7 @@ module.exports = function (stylecow) {
 			ios: false
 		},
 		Declaration: function (declaration) {
-			if (declaration.is(null, /^mask/)) {
+			if (declaration.is({name: /^mask/})) {
 				declaration.cloneBefore().name = '-webkit-' + declaration.name;
 			}
 		}

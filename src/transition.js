@@ -6,7 +6,7 @@ module.exports = function (stylecow) {
 				firefox: 16.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^transition/) && !declaration.has(null, null, null, true)) {
+				if (declaration.is({name: /^transition/}) && !declaration.has({vendor: true})) {
 					declaration.cloneBefore().name = '-moz-' + declaration.name;
 				}
 			}
@@ -20,7 +20,7 @@ module.exports = function (stylecow) {
 				android: 4.4
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^transition/) && !declaration.has(null, null, null, true)) {
+				if (declaration.is({name: /^transition/}) && !declaration.has({vendor: true})) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			}
@@ -32,7 +32,7 @@ module.exports = function (stylecow) {
 				opera: 12.1
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^transition/) && !declaration.has(null, null, null, true)) {
+				if (declaration.is({name: /^transition/}) && !declaration.has({vendor: true})) {
 					declaration.cloneBefore().name = '-o-' + declaration.name;
 				}
 			}
@@ -44,8 +44,8 @@ module.exports = function (stylecow) {
 				firefox: 16.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, ['-moz-transition', '-moz-transition-property'])) {
-					declaration.search('Keyword', ['transform', 'transform-origin']).forEach(function (keyword) {
+				if (declaration.is({name: ['-moz-transition', '-moz-transition-property']})) {
+					declaration.search({type: 'Keyword', name: ['transform', 'transform-origin']}).forEach(function (keyword) {
 						keyword.name = '-moz-' + keyword.name;
 					});
 				}
@@ -61,8 +61,8 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, ['-webkit-transition', '-webkit-transition-property'])) {
-					declaration.search('Keyword', ['transform', 'transform-origin']).forEach(function (keyword) {
+				if (declaration.is({name: ['-webkit-transition', '-webkit-transition-property']})) {
+					declaration.search({type: 'Keyword', name: ['transform', 'transform-origin']}).forEach(function (keyword) {
 						keyword.name = '-webkit-' + keyword.name;
 					});
 				}
@@ -75,8 +75,8 @@ module.exports = function (stylecow) {
 				opera: 12.1
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, ['-o-transition', '-o-transition-property'])) {
-					declaration.search('Keyword', ['transform', 'transform-origin']).forEach(function (keyword) {
+				if (declaration.is({name: ['-o-transition', '-o-transition-property']})) {
+					declaration.search({type: 'Keyword', name: ['transform', 'transform-origin']}).forEach(function (keyword) {
 						keyword.name = '-o-' + keyword.name;
 					});
 				}
@@ -89,8 +89,8 @@ module.exports = function (stylecow) {
 				explorer: 10.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, ['transition', 'transition-property']) && declaration.has('Keyword', ['transform', 'transform-origin'])) {
-					declaration.cloneBefore().search('Keyword', ['transform', 'transform-origin']).forEach(function (keyword) {
+				if (declaration.is({name: ['transition', 'transition-property']}) && declaration.has({type: 'Keyword', name: ['transform', 'transform-origin']})) {
+					declaration.cloneBefore().search({type: 'Keyword', name: ['transform', 'transform-origin']}).forEach(function (keyword) {
 						keyword.name = '-ms-' + keyword.name;
 					});
 				}

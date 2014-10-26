@@ -1,4 +1,5 @@
 module.exports = function (stylecow) {
+
 	stylecow.addTask([
 		//Fix old syntax in firefox <13 in border-radius
 		{
@@ -42,7 +43,7 @@ module.exports = function (stylecow) {
 				android: 2.2
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^border-.*radius$/)) {
+				if (declaration.is({name: /^border-.*radius$/})) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			}
@@ -57,7 +58,7 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^border-(start|end|after|before)/)) {
+				if (declaration.is({name: /^border-(start|end|after|before)/})) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			}
@@ -69,7 +70,7 @@ module.exports = function (stylecow) {
 				firefox: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^border-(start|end)/)) {
+				if (declaration.is({name: /^border-(start|end)/})) {
 					declaration.cloneBefore().name = '-moz-' + declaration.name;
 				}
 			}
@@ -81,7 +82,7 @@ module.exports = function (stylecow) {
 				firefox: 15.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^border-image/)) {
+				if (declaration.is({name: /^border-image/})) {
 					declaration.cloneBefore().name = '-moz-' + declaration.name;
 				}
 			}
@@ -93,7 +94,7 @@ module.exports = function (stylecow) {
 				opera: 15.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^border-image/)) {
+				if (declaration.is({name: /^border-image/})) {
 					declaration.cloneBefore().name = '-o-' + declaration.name;
 				}
 			}
@@ -107,7 +108,7 @@ module.exports = function (stylecow) {
 				android: 4.4
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^border-image/)) {
+				if (declaration.is({name: /^border-image/})) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			}

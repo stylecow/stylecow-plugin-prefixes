@@ -1,4 +1,5 @@
 module.exports = function (stylecow) {
+
 	stylecow.addTask([
 		//Adds -moz- vendor prefixes
 		{
@@ -6,7 +7,7 @@ module.exports = function (stylecow) {
 				firefox: 16.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^animation/)) {
+				if (declaration.is({name: /^animation/})) {
 					declaration.cloneBefore().name = '-moz-' + declaration.name;
 				}
 			},
@@ -23,7 +24,7 @@ module.exports = function (stylecow) {
 				opera: 12.1
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^animation/)) {
+				if (declaration.is({name: /^animation/})) {
 					declaration.cloneBefore().name = '-o-' + declaration.name;
 				}
 			},
@@ -43,7 +44,7 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^animation/)) {
+				if (declaration.is({name: /^animation/})) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			},

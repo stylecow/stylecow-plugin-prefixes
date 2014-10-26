@@ -6,10 +6,10 @@ module.exports = function (stylecow) {
 				firefox: false
 			},
 			RuleBefore: function (rule) {
-				if (rule.has('Keyword', ['::input-placeholder', '::selection'])) {
-					var clone = rule.cloneBefore();
+				var hasPseudoelement = rule.children({type: 'Selector'}).has({type: 'Keyword', name: ['::input-placeholder', '::selection']});
 
-					clone.search('Keyword', ['::input-placeholder', '::selection']).forEach(function (keyword) {
+				if (hasPseudoelement) {
+					rule.cloneBefore().children({type: 'Selector'}).search({type: 'Keyword', name: ['::input-placeholder', '::selection']}).forEach(function (keyword) {
 						keyword.name = (keyword.name === '::input-placeholder') ? '::-moz-placeholder' : '::-moz-selection';
 					});
 				}
@@ -25,8 +25,10 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			RuleBefore: function (rule) {
-				if (rule.has('Keyword', '::input-placeholder')) {
-					rule.cloneBefore().search('Keyword', '::input-placeholder').forEach(function (keyword) {
+				var hasPseudoelement = rule.children({type: 'Selector'}).has({type: 'Keyword', name: '::input-placeholder'});
+
+				if (hasPseudoelement) {
+					rule.cloneBefore().children({type: 'Selector'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
 						keyword.name = '::-webkit-input-placeholder';
 					});
 				}
@@ -39,9 +41,11 @@ module.exports = function (stylecow) {
 				explorer: false
 			},
 			RuleBefore: function (rule) {
-				if (rule.has('Keyword', '::input-placeholder')) {
-					rule.cloneBefore().search('Keyword', '::input-placeholder').forEach(function (keyword) {
-						keyword.name = ':-ms-input-placeholder';
+				var hasPseudoelement = rule.children({type: 'Selector'}).has({type: 'Keyword', name: '::input-placeholder'});
+
+				if (hasPseudoelement) {
+					rule.cloneBefore().children({type: 'Selector'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
+						keyword.name = '::-ms-input-placeholder';
 					});
 				}
 			}

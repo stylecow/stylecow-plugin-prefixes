@@ -6,7 +6,7 @@ module.exports = function (stylecow) {
 				firefox: 16.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^(transform.*|perspective.*|backface-visibility)$/)) {
+				if (declaration.is({name: /^(transform.*|perspective.*|backface-visibility)$/})) {
 					declaration.cloneBefore().name = '-moz-' + declaration.name;
 				}
 			}
@@ -21,7 +21,7 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^(transform.*|perspective.*|backface-visibility)$/)) {
+				if (declaration.is({name: /^(transform.*|perspective.*|backface-visibility)$/})) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			}
@@ -33,7 +33,7 @@ module.exports = function (stylecow) {
 				12.1
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^transform/)) {
+				if (declaration.is({name: /^transform/})) {
 					declaration.cloneBefore().name = '-o-' + declaration.name;
 				}
 			}
@@ -45,7 +45,7 @@ module.exports = function (stylecow) {
 				explorer: 10.0
 			},
 			Declaration: function (declaration) {
-				if (declaration.is(null, /^transform/)) {
+				if (declaration.is({name: /^transform/})) {
 					declaration.cloneBefore().name = '-ms-' + declaration.name;
 				}
 			}
