@@ -9,7 +9,7 @@ module.exports = function (stylecow) {
 		Declaration: {
 			display: function (declaration) {
 				if (declaration.is({value: 'inline-block'})) {
-					declaration.insertAfter('display: -moz-inline-block');
+					declaration.cloneAfter().setContent('-moz-inline-block');
 				}
 			}
 		}

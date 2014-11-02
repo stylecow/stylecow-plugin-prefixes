@@ -12,7 +12,7 @@ module.exports = function (stylecow) {
 		Declaration: {
 			position: function (declaration) {
 				if (declaration.value === 'sticky') {
-					declaration.insertBefore('position: -webkit-sticky');
+					declaration.cloneBefore().setContent('-webkit-sticky');
 				}
 			}
 		}
