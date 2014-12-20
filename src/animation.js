@@ -11,7 +11,7 @@ module.exports = function (stylecow) {
 					declaration.cloneBefore().name = '-moz-' + declaration.name;
 				}
 			},
-			NestedAtRule: {
+			AtRule: {
 				"keyframes": function (atrule) {
 					atrule.cloneBefore().name = '-moz-' + atrule.name;
 				}
@@ -28,7 +28,7 @@ module.exports = function (stylecow) {
 					declaration.cloneBefore().name = '-o-' + declaration.name;
 				}
 			},
-			NestedAtRule: {
+			AtRule: {
 				"keyframes": function (atrule) {
 					atrule.cloneBefore().name = '-o-' + atrule.name;
 				}
@@ -48,7 +48,7 @@ module.exports = function (stylecow) {
 					declaration.cloneBefore().name = '-webkit-' + declaration.name;
 				}
 			},
-			NestedAtRule: {
+			AtRule: {
 				"keyframes": function (atrule) {
 					atrule.cloneBefore().name = '-webkit-' + atrule.name;
 				}

@@ -6,7 +6,7 @@ module.exports = function (stylecow) {
 		disable: {
 			firefox: false
 		},
-		NestedAtRule: {
+		AtRule: {
 			"document": function (atrule) {
 				atrule.cloneBefore().name = '-moz-document';
 			}

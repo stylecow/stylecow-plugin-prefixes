@@ -11,8 +11,10 @@ module.exports = function (stylecow) {
 		},
 		Declaration: {
 			position: function (declaration) {
-				if (declaration.value === 'sticky') {
-					declaration.cloneBefore().setContent('-webkit-sticky');
+				if (declaration.has({type: 'Keyword', name: ['sticky']})) {
+					declaration.cloneBefore().search({type: 'Keyword', name: ['sticky']}).forEach(function (keyword) {
+						keyword.name = '-webkit-' + keyword.name;
+					});
 				}
 			}
 		}

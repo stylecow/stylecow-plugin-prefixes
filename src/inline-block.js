@@ -8,8 +8,14 @@ module.exports = function (stylecow) {
 		},
 		Declaration: {
 			display: function (declaration) {
-				if (declaration.is({value: 'inline-block'})) {
-					declaration.cloneAfter().setContent('-moz-inline-block');
+				if (declaration.has({
+					type: 'Keyword',
+					name: 'inline-block'
+				})) {
+					declaration.cloneBefore().searchFirst({
+						type: 'Keyword',
+						name: 'inline-block'
+					}).name = '-moz-inline-block';
 				}
 			}
 		}

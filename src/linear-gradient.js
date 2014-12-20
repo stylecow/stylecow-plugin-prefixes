@@ -11,7 +11,7 @@ module.exports = function (stylecow) {
 				'linear-gradient': function (fn) {
 					fn.parent({type: 'Declaration'}).cloneBefore().search({type: 'Function', name: 'linear-gradient'}).forEach(function (fn) {
 						fn.name = '-moz-linear-gradient';
-						fn[0].replaceWith(fixDirection(fn[0]));
+						fixDirection(fn[0]);
 					});
 				}
 			}
@@ -26,7 +26,7 @@ module.exports = function (stylecow) {
 				'linear-gradient': function (fn) {
 					fn.parent({type: 'Declaration'}).cloneBefore().search({type: 'Function', name: 'linear-gradient'}).forEach(function (fn) {
 						fn.name = '-o-linear-gradient';
-						fn[0].replaceWith(fixDirection(fn[0]));
+						fixDirection(fn[0]);
 					});
 				}
 			}
@@ -44,7 +44,7 @@ module.exports = function (stylecow) {
 				'linear-gradient': function (fn) {
 					fn.parent({type: 'Declaration'}).cloneBefore().search({type: 'Function', name: 'linear-gradient'}).forEach(function (fn) {
 						fn.name = '-webkit-linear-gradient';
-						fn[0].replaceWith(fixDirection(fn[0]));
+						fixDirection(fn[0]);
 					});
 				}
 			}
@@ -60,13 +60,14 @@ module.exports = function (stylecow) {
 			"Function": {
 				'linear-gradient': function (fn) {
 					fn.parent({type: 'Declaration'}).cloneBefore().search({type: 'Function', name: 'linear-gradient'}).forEach(function (fn) {
+						var args = fn.toArray();
 						var newArgs = ['linear'];
 
 						//Calculate the gradient direction
 						var point = 'to bottom';
 
-						if (fn[0].is({name: /(top|bottom|left|right|deg)/})) {
-							point = fn.shift().toString();
+						if (/(top|bottom|left|right|deg)/.test(args[0])) {
+							point = args.shift();
 						}
 
 						switch (point) {
@@ -95,9 +96,9 @@ module.exports = function (stylecow) {
 						}
 
 						//Gradient colors and color stops
-						var total = fn.length - 1;
+						var total = args.length - 1;
 
-						fn.forEach(function (param, i) {
+						args.forEach(function (param, i) {
 							var text;
 
 							if (i === 0) {
@@ -112,8 +113,7 @@ module.exports = function (stylecow) {
 						});
 
 						//Apply the changes
-						fn.name = '-webkit-gradient';
-						fn.setContent(newArgs);
+						fn.replaceWith(stylecow.Function.createFromString('-webkit-gradient(' + newArgs.join(',') + ')'));
 					});
 				}
 			}
@@ -122,20 +122,26 @@ module.exports = function (stylecow) {
 };
 
 function fixDirection (direction) {
-	switch (direction.toString()) {
-		case 'to top':
-			return 'bottom';
+	if (direction[0].name === 'to') {
+		direction.shift();
+		var keyword = direction[0];
 
-		case 'to bottom':
-			return 'top';
+		switch (keyword.name) {
+			case 'top':
+				keyword.name = 'bottom';
+				break;
 
-		case 'to left':
-			return 'right';
+			case 'bottom':
+				keyword.name = 'top';
+				break;
 
-		case 'to right':
-			return 'left';
+			case 'left':
+				keyword.name = 'right';
+				break;
 
-		default:
-			return direction;
+			case 'right':
+				keyword.name = 'left';
+				break;
+		}
 	}
 }

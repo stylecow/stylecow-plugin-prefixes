@@ -7,8 +7,11 @@ module.exports = function (stylecow) {
 			explorer: false
 		},
 		Declaration: function (declaration) {
-			if (declaration.is({name: 'display', value: 'grid'})) {
-				return declaration.cloneBefore().value = '-ms-grid';
+			if (declaration.is({string: 'display: grid;'})) {
+				return declaration.cloneBefore().searchFirst({
+					type: 'Keyword',
+					name: 'grid'
+				}).name = '-ms-grid';
 			}
 
 			if (declaration.is({name: /^grid.*$/})) {

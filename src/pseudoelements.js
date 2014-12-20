@@ -1,15 +1,15 @@
 module.exports = function (stylecow) {
 	stylecow.addTask([
-		// Add -moz- vendor prefix in ::input-placeholder for Firefox > 18 and ::selection
+		// Add -moz- vendor prefix in ::input-placeholder and ::selection for Firefox > 18
 		{
 			disable: {
 				firefox: false
 			},
 			RuleBefore: function (rule) {
-				var hasPseudoelement = rule.children({type: 'Selector'}).has({type: 'Keyword', name: ['::input-placeholder', '::selection']});
+				var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: ['::input-placeholder', '::selection']});
 
 				if (hasPseudoelement) {
-					rule.cloneBefore().children({type: 'Selector'}).search({type: 'Keyword', name: ['::input-placeholder', '::selection']}).forEach(function (keyword) {
+					rule.cloneBefore().children({type: 'Selectors'}).search({type: 'Keyword', name: ['::input-placeholder', '::selection']}).forEach(function (keyword) {
 						keyword.name = (keyword.name === '::input-placeholder') ? '::-moz-placeholder' : '::-moz-selection';
 					});
 				}
@@ -25,10 +25,10 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			RuleBefore: function (rule) {
-				var hasPseudoelement = rule.children({type: 'Selector'}).has({type: 'Keyword', name: '::input-placeholder'});
+				var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: '::input-placeholder'});
 
 				if (hasPseudoelement) {
-					rule.cloneBefore().children({type: 'Selector'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
+					rule.cloneBefore().children({type: 'Selectors'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
 						keyword.name = '::-webkit-input-placeholder';
 					});
 				}
@@ -41,10 +41,10 @@ module.exports = function (stylecow) {
 				explorer: false
 			},
 			RuleBefore: function (rule) {
-				var hasPseudoelement = rule.children({type: 'Selector'}).has({type: 'Keyword', name: '::input-placeholder'});
+				var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: '::input-placeholder'});
 
 				if (hasPseudoelement) {
-					rule.cloneBefore().children({type: 'Selector'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
+					rule.cloneBefore().children({type: 'Selectors'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
 						keyword.name = '::-ms-input-placeholder';
 					});
 				}

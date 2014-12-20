@@ -6,8 +6,13 @@ module.exports = function (stylecow) {
 				firefox: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is({name: /^(min-|max-)?(width|height)$/, value: 'fill-available'})) {
-					declaration.cloneBefore().value = '-moz-available';
+				if (declaration.is({
+					string: /^(min-|max-)?(width|height): fill-available;$/
+				})) {
+					declaration.cloneBefore().searchFirst({
+						type: 'Keyword',
+						name: 'fill-available'
+					}).name = '-moz-available';
 				}
 			}
 		},
@@ -16,8 +21,15 @@ module.exports = function (stylecow) {
 		{
 			disable: { firefox: false },
 			Declaration: function (declaration) {
-				if (declaration.is({name: /^(min-|max-)?(width|height)$/, value: ['max-content', 'min-content', 'fit-content']})) {
-					declaration.cloneBefore().value = '-moz-' + declaration.value;
+				if (declaration.is({
+					string: /^(min-|max-)?(width|height): (max-content|min-content|fit-content);$/
+				})) {
+					var keyword = declaration.cloneBefore().searchFirst({
+						type: 'Keyword',
+						name: ['max-content', 'min-content', 'fit-content']
+					});
+
+					keyword.name = '-moz-' + keyword.name;
 				}
 			}
 		},
@@ -32,8 +44,15 @@ module.exports = function (stylecow) {
 				ios: false
 			},
 			Declaration: function (declaration) {
-				if (declaration.is({name: /^(min-|max-)?(width|height)$/, value: ['fill-available', 'max-content', 'min-content', 'fit-content']})) {
-					declaration.cloneBefore().value = '-webkit-' + declaration.value;
+				if (declaration.is({
+					string: /^(min-|max-)?(width|height): (fill-available|max-content|min-content|fit-content);$/
+				})) {
+					var keyword = declaration.cloneBefore().searchFirst({
+						type: 'Keyword',
+						name: ['fill-available', 'max-content', 'min-content', 'fit-content']
+					});
+
+					keyword.name = '-webkit-' + keyword.name;
 				}
 			}
 		}
