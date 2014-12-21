@@ -1,42 +1,49 @@
 module.exports = function (stylecow) {
-	stylecow.addTask([
-		// Adds -moz- vendor prefix
-		{
-			disable: {
-				firefox: false
-			},
-			Declaration: {
-				"user-select": function (declaration) {
-					declaration.cloneBefore().name = '-moz-user-select';
-				}
-			}
-		},
 
-		// Adds -webkit- vendor prefix
-		{
-			disable: {
-				chrome: false,
-				safari: false,
-				android: false,
-				ios: false
-			},
-			Declaration: {
-				"user-select": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-user-select';
-				}
-			}
+	// Adds -moz- vendor prefix
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: false
 		},
-
-		// Adds -ms- vendor prefix
-		{
-			disable: {
-				explorer: false
-			},
-			Declaration: {
-				"user-select": function (declaration) {
-					declaration.cloneBefore().name = '-ms-user-select';
-				}
-			}
+		filter: {
+			type: 'Declaration',
+			name: 'user-select'
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-moz-user-select';
 		}
-	]);
+	});
+
+
+	// Adds -webkit- vendor prefix
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			chrome: false,
+			safari: false,
+			android: false,
+			ios: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'user-select'
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-webkit-user-select';
+		}
+	});
+
+
+	// Adds -ms- vendor prefix
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			explorer: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'user-select'
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-ms-user-select';
+		}
+	});
 };

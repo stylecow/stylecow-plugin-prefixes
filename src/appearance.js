@@ -1,30 +1,33 @@
 module.exports = function (stylecow) {
-	stylecow.addTask([
-		//Adds -moz- vendor prefixes
-		{
-			disable: {
-				firefox: false
-			},
-			Declaration: {
-				"appearance": function (declaration) {
-					declaration.cloneBefore().name = '-moz-appearance';
-				}
-			}
-		},
 
-		//Adds -webkit- vendor prefixes
-		{
-			disable: {
-				chrome: false,
-				safari: false,
-				android: false,
-				ios: false
-			},
-			Declaration: {
-				"appearance": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-appearance';
-				}
-			}
+	//Adds -moz- vendor prefixes
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'appearance'
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-moz-appearance';
 		}
-	]);
+	});
+
+	//Adds -webkit- vendor prefixes
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			chrome: false,
+			safari: false,
+			android: false,
+			ios: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'appearance'
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-webkit-appearance';
+		}
+	});
 };

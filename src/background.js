@@ -1,57 +1,58 @@
 module.exports = function (stylecow) {
-	stylecow.addTask([
-		//Adds -moz- vendor prefixes
-		{
-			disable: {
-				firefox: 4.0
-			},
-			Declaration: {
-				"background-size": function (declaration) {
-					declaration.cloneBefore().name = '-moz-background-size';
-				},
-				"background-clip": function (declaration) {
-					declaration.cloneBefore().name = '-moz-background-clip';
-				},
-				"background-origin": function (declaration) {
-					declaration.cloneBefore().name = '-moz-background-origin';
-				}
-			}
+	
+	//Adds -moz- vendor prefixes
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: 4.0
 		},
-
-		//Adds -o- vendor prefixes
-		{
-			disable: {
-				opera: 10.5
-			},
-			Declaration: {
-				"background-size": function (declaration) {
-					declaration.cloneBefore().name = '-o-background-size';
-				},
-				"background-clip": function (declaration) {
-					declaration.cloneBefore().name = '-o-background-clip';
-				},
-				"background-origin": function (declaration) {
-					declaration.cloneBefore().name = '-o-background-origin';
-				}
-			}
+		filter: {
+			type: 'Declaration',
+			name: [
+				'background-size',
+				'background-clip',
+				'background-origin'
+			]
 		},
-
-		//Adds -webkit- vendor prefixes
-		{
-			disable: {
-				android: 3.0
-			},
-			Declaration: {
-				"background-size": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-background-size';
-				},
-				"background-clip": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-background-clip';
-				},
-				"background-origin": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-background-origin';
-				}
-			}
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-moz-' + declaration.name;
 		}
-	]);
+	});
+
+
+	//Adds -o- vendor prefixes
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			opera: 10.5
+		},
+		filter: {
+			type: 'Declaration',
+			name: [
+				'background-size',
+				'background-clip',
+				'background-origin'
+			]
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-o-' + declaration.name;
+		}
+	});
+
+
+	//Adds -webkit- vendor prefixes
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			android: 3.0
+		},
+		filter: {
+			type: 'Declaration',
+			name: [
+				'background-size',
+				'background-clip',
+				'background-origin'
+			]
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+		}
+	});
 };

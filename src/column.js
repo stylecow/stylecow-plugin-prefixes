@@ -1,31 +1,34 @@
 module.exports = function (stylecow) {
 
-	stylecow.addTask([
-		// Adds -moz- vendor prefixes
-		{
-			disable: {
-				firefox: false
-			},
-			Declaration: function (declaration) {
-				if (declaration.is({name: /^column/})) {
-					declaration.cloneBefore().name = '-moz-' + declaration.name;
-				}
-			}
+	// Adds -moz- vendor prefixes
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: false
 		},
-
-		// Adds -webkit- vendor prefixes
-		{
-			disable: {
-				chrome: false,
-				safari: false,
-				android: false,
-				ios: false
-			},
-			Declaration: function (declaration) {
-				if (declaration.is({name: /^column/})) {
-					declaration.cloneBefore().name = '-webkit-' + declaration.name;
-				}
-			}
+		filter: {
+			type: 'Declaration',
+			name: /^column/
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-moz-' + declaration.name;
 		}
-	]);
+	});
+
+
+	// Adds -webkit- vendor prefixes
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			chrome: false,
+			safari: false,
+			android: false,
+			ios: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: /^column/
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+		}
+	});
 };

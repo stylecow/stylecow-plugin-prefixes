@@ -1,15 +1,16 @@
 module.exports = function (stylecow) {
 	
 	//Adds -moz- vendor prefix
-
 	stylecow.addTask({
-		disable: {
+		forBrowsersLowerThan: {
 			firefox: false
 		},
-		AtRule: {
-			"document": function (atrule) {
-				atrule.cloneBefore().name = '-moz-document';
-			}
+		filter: {
+			type: 'AtRule',
+			name: 'document'
+		},
+		fn: function (atrule) {
+			atrule.cloneBefore().name = '-moz-document';
 		}
 	});
 };

@@ -1,34 +1,46 @@
 module.exports = function (stylecow) {
-	stylecow.addTask([
-		// Adds -webkit- vendor prefix
-		{
-			disable: {
-				chrome: false,
-				safari: false,
-				android: false,
-				ios: false
-			},
-			Declaration: function (declaration) {
-				if (declaration.is({name: 'region-fragment'})) {
-					return declaration.cloneBefore().name = '-webkit-region-fragment';
-				}
 
-				if (declaration.is({name: /^flow/})) {
-					return declaration.cloneBefore().name = '-webkit-' + declaration.name;
-				}
+	// Adds -webkit- vendor prefix
+	stylecow.forBrowsersLowerThan({
+		chrome: false,
+		safari: false,
+		android: false,
+		ios: false
+	}, function () {
+		
+		stylecow.addTask({
+			filter: {
+				type: 'Declaration',
+				name: 'region-fragment'
+			},
+			fn: function (declaration) {
+				declaration.cloneBefore().name = '-webkit-region-fragment';
 			}
+		});
+
+		stylecow.addTask({
+			filter: {
+				type: 'Declaration',
+				name: /^flow/
+			},
+			fn: function (declaration) {
+				declaration.cloneBefore().name = '-webkit-region-fragment';
+			}
+		});
+	});
+
+
+	// Adds -ms- vendor prefix
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			explorer: false
 		},
-
-		// Adds -ms- vendor prefix
-		{
-			disable: {
-				explorer: false
-			},
-			Declaration: function (declaration) {
-				if (declaration.is({name: /^flow/})) {
-					return declaration.cloneBefore().name = '-ms-' + declaration.name;
-				}
-			}
+		filter: {
+			type: 'Declaration',
+			name: /^flow/
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-ms-' + declaration.name;
 		}
-	]);
+	});
 };

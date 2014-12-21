@@ -1,18 +1,16 @@
 module.exports = function (stylecow) {
 	
 	//Adds -o- vendor prefix
-
 	stylecow.addTask({
-		disable: {
+		forBrowsersLowerThan: {
 			opera: 15.0
 		},
-		Declaration: {
-			"object-fit": function (declaration) {
-				declaration.cloneBefore().name = '-o-object-fit';
-			},
-			"object-position": function (declaration) {
-				declaration.cloneBefore().name = '-o-object-position';
-			}
+		filter: {
+			type: 'Declaration',
+			name: ['object-fit', 'object-position']
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-o-' + declaration.name;
 		}
 	});
 };

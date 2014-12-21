@@ -1,84 +1,91 @@
 module.exports = function (stylecow) {
-	stylecow.addTask([
-		// Adds -moz- vendor prefix
-		{
-			disable: {
-				firefox: false
-			},
-			Declaration: {
-				"text-align-last": function (declaration) {
-					declaration.cloneBefore().name = '-moz-text-align-last';
-				},
-				"font-feature-settings": function (declaration) {
-					declaration.cloneBefore().name = '-moz-font-feature-settings';
-				},
-				"hyphens": function (declaration) {
-					declaration.cloneBefore().name = '-moz-hyphens';
-				},
-				"tab-size": function (declaration) {
-					declaration.cloneBefore().name = '-moz-tab-size';
-				}
-			}
-		},
 
-		// Adds -webkit- vendor prefix
-		{
-			disable: {
-				chrome: false,
-				safari: false,
-				android: false,
-				ios: false
-			},
-			Declaration: {
-				"font-feature-settings": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-font-feature-settings';
-				},
-				"text-size-adjust": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-text-size-adjust';
-				},
-				"hyphens": function (declaration) {
-					declaration.cloneBefore().name = '-webkit-hyphens';
-				}
-			}
+	// Adds -moz- vendor prefix
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: false
 		},
-
-		// Adds -ms- vendor prefix to text-size-adjust
-		{
-			disable: {
-				explorer: false
-			},
-			Declaration: {
-				"text-size-adjust": function (declaration) {
-					declaration.cloneBefore().name = '-ms-text-size-adjust';
-				},
-				"hyphens": function (declaration) {
-					declaration.cloneBefore().name = '-ms-hyphens';
-				}
-			}
+		filter: {
+			type: 'Declaration',
+			name: [
+				'text-align-last',
+				'font-feature-settings',
+				'hyphens',
+				'tab-size'
+			]
 		},
-
-		// Adds -o- vendor prefix to text-overflow
-		{
-			disable: {
-				opera: 11.0
-			},
-			Declaration: {
-				"text-overflow": function (declaration) {
-					declaration.cloneBefore().name = '-o-text-overflow';
-				}
-			}
-		},
-
-		// Adds -o- vendor prefix to tab-size
-		{
-			disable: {
-				opera: 15.0
-			},
-			Declaration: {
-				"tab-size": function (declaration) {
-					declaration.cloneBefore().name = '-o-tab-size';
-				}
-			}
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-moz-' + declaration.name;
 		}
-	]);
+	});
+
+	
+	// Adds -webkit- vendor prefix
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			chrome: false,
+			safari: false,
+			android: false,
+			ios: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: [
+				'font-feature-settings',
+				'text-size-adjust',
+				'hyphens'
+			]
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-moz-' + declaration.name;
+		}
+	});
+
+
+	// Adds -ms- vendor prefix to text-size-adjust
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			explorer: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: [
+				'text-size-adjust',
+				'hyphens'
+			]
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-ms-' + declaration.name;
+		}
+	});
+
+
+	// Adds -o- vendor prefix to text-overflow
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			opera: 11.0
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'text-overflow'
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-o-' + declaration.name;
+		}
+	});
+
+
+	// Adds -o- vendor prefix to tab-size
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			opera: 15.0
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'tab-size'
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-o-' + declaration.name;
+		}
+	});
 };

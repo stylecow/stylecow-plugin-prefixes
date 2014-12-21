@@ -1,18 +1,19 @@
 module.exports = function (stylecow) {
 	
 	//Adds -webkit- vendor prefix
-
 	stylecow.addTask({
-		disable: {
+		forBrowsersLowerThan: {
 			chrome: false,
 			safari: false,
 			android: false,
 			ios: false
 		},
-		Declaration: function (declaration) {
-			if (declaration.is({name: /^mask/})) {
-				declaration.cloneBefore().name = '-webkit-' + declaration.name;
-			}
+		filter: {
+			type: 'Declaration',
+			name: /^mask/
+		},
+		fn: function (declaration) {
+			declaration.cloneBefore().name = '-webkit-' + declaration.name;
 		}
 	});
 };
