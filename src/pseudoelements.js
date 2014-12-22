@@ -8,7 +8,6 @@ module.exports = function (stylecow) {
 		filter: {
 			type: 'Rule'
 		},
-		executeBefore: true,
 		fn: function (rule) {
 			var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: ['::input-placeholder', '::selection']});
 
@@ -32,7 +31,6 @@ module.exports = function (stylecow) {
 		filter: {
 			type: 'Rule'
 		},
-		executeBefore: true,
 		fn: function (rule) {
 			var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: '::input-placeholder'});
 
@@ -53,7 +51,6 @@ module.exports = function (stylecow) {
 		filter: {
 			type: 'rule'
 		},
-		executeBefore: true,
 		fn: function (rule) {
 			var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: '::input-placeholder'});
 
