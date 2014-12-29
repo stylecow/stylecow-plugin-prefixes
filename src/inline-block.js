@@ -14,10 +14,13 @@ module.exports = function (stylecow) {
 				type: 'Keyword',
 				name: 'inline-block'
 			})) {
-				declaration.cloneBefore().searchFirst({
-					type: 'Keyword',
-					name: 'inline-block'
-				}).name = '-moz-inline-block';
+				declaration
+					.cloneBefore()
+					.searchFirst({
+						type: 'Keyword',
+						name: 'inline-block'
+					})
+					.name = '-moz-inline-block';
 			}
 		}
 	});

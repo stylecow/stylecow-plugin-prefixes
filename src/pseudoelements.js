@@ -9,12 +9,25 @@ module.exports = function (stylecow) {
 			type: 'Rule'
 		},
 		fn: function (rule) {
-			var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: ['::input-placeholder', '::selection']});
-
-			if (hasPseudoelement) {
-				rule.cloneBefore().children({type: 'Selectors'}).search({type: 'Keyword', name: ['::input-placeholder', '::selection']}).forEach(function (keyword) {
-					keyword.name = (keyword.name === '::input-placeholder') ? '::-moz-placeholder' : '::-moz-selection';
-				});
+			if (
+				rule
+				.children('Selectors')
+				.has({
+					type: 'Keyword',
+					name: ['::input-placeholder', '::selection']
+				})
+			) {
+				rule
+					.cloneBefore()
+					.cleanVendorElements('-moz-')
+					.children('Selectors')
+					.search({
+						type: 'Keyword',
+						name: ['::input-placeholder', '::selection']
+					})
+					.forEach(function (keyword) {
+						keyword.name = (keyword.name === '::input-placeholder') ? '::-moz-placeholder' : '::-moz-selection';
+					});
 			}
 		}
 	});
@@ -32,12 +45,25 @@ module.exports = function (stylecow) {
 			type: 'Rule'
 		},
 		fn: function (rule) {
-			var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: '::input-placeholder'});
-
-			if (hasPseudoelement) {
-				rule.cloneBefore().children({type: 'Selectors'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
-					keyword.name = '::-webkit-input-placeholder';
-				});
+			if (
+				rule
+				.children('Selectors')
+				.has({
+					type: 'Keyword',
+					name: '::input-placeholder'
+				})
+			) {
+				rule
+					.cloneBefore()
+					.cleanVendorElements('-webkit-')
+					.children('Selectors')
+					.search({
+						type: 'Keyword',
+						name: '::input-placeholder'
+					})
+					.forEach(function (keyword) {
+						keyword.name = '::-webkit-input-placeholder';
+					});
 			}
 		}
 	});
@@ -52,12 +78,25 @@ module.exports = function (stylecow) {
 			type: 'rule'
 		},
 		fn: function (rule) {
-			var hasPseudoelement = rule.children({type: 'Selectors'}).has({type: 'Keyword', name: '::input-placeholder'});
-
-			if (hasPseudoelement) {
-				rule.cloneBefore().children({type: 'Selectors'}).search({type: 'Keyword', name: '::input-placeholder'}).forEach(function (keyword) {
-					keyword.name = '::-ms-input-placeholder';
-				});
+			if (
+				rule
+				.children('Selectors')
+				.has({
+					type: 'Keyword',
+					name: '::input-placeholder'
+				})
+			) {
+				rule
+					.cloneBefore()
+					.cleanVendorElements('-ms-')
+					.children('Selectors')
+					.search({
+						type: 'Keyword',
+						name: '::input-placeholder'
+					})
+					.forEach(function (keyword) {
+						keyword.name = '::-ms-input-placeholder';
+					});
 			}
 		}
 	});

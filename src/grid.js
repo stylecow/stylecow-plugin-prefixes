@@ -11,10 +11,13 @@ module.exports = function (stylecow) {
 				string: 'display: grid;'
 			},
 			fn: function (declaration) {
-				declaration.cloneBefore().searchFirst({
-					type: 'Keyword',
-					name: 'grid'
-				}).name = '-ms-grid';
+				declaration
+					.cloneBefore()
+					.searchFirst({
+						type: 'Keyword',
+						name: 'grid'
+					})
+					.name = '-ms-grid';
 			}
 		});
 

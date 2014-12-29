@@ -13,9 +13,15 @@ module.exports = function (stylecow) {
 			string: 'position: sticky;'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().search({type: 'Keyword', name: ['sticky']}).forEach(function (keyword) {
-				keyword.name = '-webkit-' + keyword.name;
-			});
+			declaration
+				.cloneBefore()
+				.search({
+					type: 'Keyword',
+					name: 'sticky'
+				})
+				.forEach(function (keyword) {
+					keyword.name = '-webkit-' + keyword.name;
+				});
 		}
 	});
 };

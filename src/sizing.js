@@ -10,10 +10,13 @@ module.exports = function (stylecow) {
 			string: /^(min-|max-)?(width|height): fill-available;$/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().searchFirst({
-				type: 'Keyword',
-				name: 'fill-available'
-			}).name = '-moz-available';
+			declaration
+				.cloneBefore()
+				.searchFirst({
+					type: 'Keyword',
+					name: 'fill-available'
+				})
+				.name = '-moz-available';
 		}
 	});
 
@@ -28,10 +31,12 @@ module.exports = function (stylecow) {
 			string: /^(min-|max-)?(width|height): (max-content|min-content|fit-content);$/
 		},
 		fn: function (declaration) {
-			var keyword = declaration.cloneBefore().searchFirst({
-				type: 'Keyword',
-				name: ['max-content', 'min-content', 'fit-content']
-			});
+			var keyword = declaration
+				.cloneBefore()
+				.searchFirst({
+					type: 'Keyword',
+					name: ['max-content', 'min-content', 'fit-content']
+				});
 
 			keyword.name = '-moz-' + keyword.name;
 		}
@@ -52,10 +57,12 @@ module.exports = function (stylecow) {
 			string: /^(min-|max-)?(width|height): (fill-available|max-content|min-content|fit-content);$/
 		},
 		fn: function (declaration) {
-			var keyword = declaration.cloneBefore().searchFirst({
-				type: 'Keyword',
-				name: ['fill-available', 'max-content', 'min-content', 'fit-content']
-			});
+			var keyword = declaration
+				.cloneBefore()
+				.searchFirst({
+					type: 'Keyword',
+					name: ['fill-available', 'max-content', 'min-content', 'fit-content']
+				});
 
 			keyword.name = '-webkit-' + keyword.name;
 		}

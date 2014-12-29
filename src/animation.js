@@ -11,7 +11,9 @@ module.exports = function (stylecow) {
 				name: /^animation/
 			},
 			fn: function (declaration) {
-				declaration.cloneBefore().name = '-moz-' + declaration.name;
+				declaration
+					.cloneBefore()
+					.set('name', '-moz-' + declaration.name);
 			}
 		});
 
@@ -21,7 +23,10 @@ module.exports = function (stylecow) {
 				name: 'keyframes'
 			},
 			fn: function (atrule) {
-				atrule.cloneBefore().name = '-moz-' + atrule.name;
+				atrule
+					.cloneBefore()
+					.cleanVendorElements('-moz-')
+					.set('name', '-moz-' + atrule.name);
 			}
 		});
 	});
@@ -38,7 +43,9 @@ module.exports = function (stylecow) {
 				name: /^animation/
 			},
 			fn: function (declaration) {
-				declaration.cloneBefore().name = '-o-' + declaration.name;
+				declaration
+					.cloneBefore()
+					.set('name', '-o-' + declaration.name);
 			}
 		});
 
@@ -48,7 +55,10 @@ module.exports = function (stylecow) {
 				name: 'keyframes'
 			},
 			fn: function (atrule) {
-				atrule.cloneBefore().name = '-o-' + atrule.name;
+				atrule
+					.cloneBefore()
+					.cleanVendorElements('-o-')
+					.set('name', '-o-' + atrule.name);
 			}
 		});
 	});
@@ -68,7 +78,9 @@ module.exports = function (stylecow) {
 				name: /^animation/
 			},
 			fn: function (declaration) {
-				declaration.cloneBefore().name = '-webkit-' + declaration.name;
+				declaration
+					.cloneBefore()
+					.set('name', '-webkit-' + declaration.name);
 			}
 		});
 
@@ -78,7 +90,10 @@ module.exports = function (stylecow) {
 				name: 'keyframes'
 			},
 			fn: function (atrule) {
-				atrule.cloneBefore().name = '-webkit-' + atrule.name;
+				atrule
+					.cloneBefore()
+					.cleanVendorElements('-webkit-')
+					.set('name', '-webkit-' + atrule.name);
 			}
 		});
 	});

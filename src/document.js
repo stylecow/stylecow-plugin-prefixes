@@ -10,7 +10,10 @@ module.exports = function (stylecow) {
 			name: 'document'
 		},
 		fn: function (atrule) {
-			atrule.cloneBefore().name = '-moz-document';
+			atrule
+				.cloneBefore()
+				.cleanVendorElements('-moz-')
+				.name = '-moz-document';
 		}
 	});
 };

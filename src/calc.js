@@ -9,10 +9,19 @@ module.exports = function (stylecow) {
 			type: 'Declaration'
 		},
 		fn: function (declaration) {
-			if (declaration.has({type: 'Function', name: 'calc'})) {
-				declaration.cloneBefore().search({type: 'Function', name: 'calc'}).forEach(function (fn) {
-					fn.name = '-moz-' + fn.name;
-				});
+			if (declaration.has({
+				type: 'Function',
+				name: 'calc'
+			})) {
+				declaration
+					.cloneBefore()
+					.search({
+						type: 'Function',
+						name: 'calc'
+					})
+					.forEach(function (fn) {
+						fn.name = '-moz-' + fn.name;
+					});
 			}
 		}
 	});
@@ -29,10 +38,19 @@ module.exports = function (stylecow) {
 			type: 'Declaration'
 		},
 		fn: function (declaration) {
-			if (declaration.has({type: 'Function', name: 'calc'})) {
-				declaration.cloneBefore().search({type: 'Function', name: 'calc'}).forEach(function (fn) {
-					fn.name = '-webkit-' + fn.name;
-				});
+			if (declaration.has({
+				type: 'Function',
+				name: 'calc'
+			})) {
+				declaration
+					.cloneBefore()
+					.search({
+						type: 'Function',
+						name: 'calc'
+					})
+					.forEach(function (fn) {
+						fn.name = '-webkit-' + fn.name;
+					});
 			}
 		}
 	});

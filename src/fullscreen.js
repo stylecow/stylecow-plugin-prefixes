@@ -9,10 +9,20 @@ module.exports = function (stylecow) {
 			type: 'Rule'
 		},
 		fn: function (rule) {
-			if (rule.has({type: 'Keyword', name: ':fullscreen'})) {
-				rule.cloneBefore().search({type: 'Keyword', name: ':fullscreen'}).forEach(function (keyword) {
-					keyword.name = ':-moz-full-screen';
-				});
+			if (rule.has({
+				type: 'Keyword',
+				name: ':fullscreen'
+			})) {
+				rule
+					.cloneBefore()
+					.cleanVendorElements('-moz-')
+					.search({
+						type: 'Keyword',
+						name: ':fullscreen'
+					})
+					.forEach(function (keyword) {
+						keyword.name = ':-moz-full-screen';
+					});
 			}
 		}
 	});
@@ -30,10 +40,20 @@ module.exports = function (stylecow) {
 			type: 'Rule'
 		},
 		fn: function (rule) {
-			if (rule.has({type: 'Keyword', name: ':fullscreen'})) {
-				rule.cloneBefore().search({type: 'Keyword', name: ':fullscreen'}).forEach(function (keyword) {
-					keyword.name = ':-webkit-full-screen';
-				});
+			if (rule.has({
+				type: 'Keyword',
+				name: ':fullscreen'
+			})) {
+				rule
+					.cloneBefore()
+					.cleanVendorElements('-webkit-')
+					.search({
+						type: 'Keyword',
+						name: ':fullscreen'
+					})
+					.forEach(function (keyword) {
+						keyword.name = ':-webkit-full-screen';
+					});
 			}
 		}
 	});
@@ -48,10 +68,20 @@ module.exports = function (stylecow) {
 			type: 'Rule'
 		},
 		fn: function (rule) {
-			if (rule.has({type: 'Keyword', name: ':fullscreen'})) {
-				rule.cloneBefore().search({type: 'Keyword', name: ':fullscreen'}).forEach(function (keyword) {
-					keyword.name = ':-ms-fullscreen';
-				});
+			if (rule.has({
+				type: 'Keyword',
+				name: ':fullscreen'
+			})) {
+				rule
+					.cloneBefore()
+					.cleanVendorElements('-ms-')
+					.search({
+						type: 'Keyword',
+						name: ':fullscreen'
+					})
+					.forEach(function (keyword) {
+						keyword.name = ':-ms-fullscreen';
+					});
 			}
 		}
 	});

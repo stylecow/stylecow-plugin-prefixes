@@ -14,7 +14,9 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.set('name', '-moz-' + declaration.name);
 		}
 	});
 
@@ -33,7 +35,9 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-o-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.set('name', '-o-' + declaration.name);
 		}
 	});
 
@@ -52,7 +56,9 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.set('name', '-webkit-' + declaration.name);
 		}
 	});
 };

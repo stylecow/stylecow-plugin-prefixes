@@ -25,12 +25,14 @@ module.exports = function (stylecow) {
 				name: ['-moz-transition', '-moz-transition-property']
 			},
 			fn: function (declaration) {
-				declaration.search({
-					type: 'Keyword',
-					name: ['transform', 'transform-origin']
-				}).forEach(function (keyword) {
-					keyword.name = '-moz-' + keyword.name;
-				});
+				declaration
+					.search({
+						type: 'Keyword',
+						name: ['transform', 'transform-origin']
+					})
+					.forEach(function (keyword) {
+						keyword.name = '-moz-' + keyword.name;
+					});
 			}
 		});
 	});
@@ -61,9 +63,14 @@ module.exports = function (stylecow) {
 				name: ['-o-transition', '-o-transition-property']
 			},
 			fn: function (declaration) {
-				declaration.search({type: 'Keyword', name: ['transform', 'transform-origin']}).forEach(function (keyword) {
-					keyword.name = '-o-' + keyword.name;
-				});
+				declaration
+					.search({
+						type: 'Keyword',
+						name: ['transform', 'transform-origin']
+					})
+					.forEach(function (keyword) {
+						keyword.name = '-o-' + keyword.name;
+					});
 			}
 		});
 	});
@@ -101,9 +108,14 @@ module.exports = function (stylecow) {
 			name: ['-webkit-transition', '-webkit-transition-property']
 		},
 		fn: function (declaration) {
-			declaration.search({type: 'Keyword', name: ['transform', 'transform-origin']}).forEach(function (keyword) {
-				keyword.name = '-webkit-' + keyword.name;
-			});
+			declaration
+				.search({
+					type: 'Keyword',
+					name: ['transform', 'transform-origin']
+				})
+				.forEach(function (keyword) {
+					keyword.name = '-webkit-' + keyword.name;
+				});
 		}
 	});
 
@@ -119,9 +131,15 @@ module.exports = function (stylecow) {
 		},
 		fn: function (declaration) {
 			if (declaration.has({type: 'Keyword', name: ['transform', 'transform-origin']})) {
-				declaration.cloneBefore().search({type: 'Keyword', name: ['transform', 'transform-origin']}).forEach(function (keyword) {
-					keyword.name = '-ms-' + keyword.name;
-				});
+				declaration
+					.cloneBefore()
+					.search({
+						type: 'Keyword',
+						name: ['transform', 'transform-origin']
+					})
+					.forEach(function (keyword) {
+						keyword.name = '-ms-' + keyword.name;
+					});
 			}
 		}
 	});
