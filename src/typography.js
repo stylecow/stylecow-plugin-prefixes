@@ -37,7 +37,7 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-' + declaration.name;
+			declaration.cloneBefore().name = '-webkit-' + declaration.name;
 		}
 	});
 
