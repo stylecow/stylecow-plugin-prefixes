@@ -13,7 +13,9 @@ module.exports = function (stylecow) {
 			name: /^mask/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 };

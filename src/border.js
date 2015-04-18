@@ -17,7 +17,9 @@ module.exports = function (stylecow) {
 			name: Object.keys(names)
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = names[declaration.name];
+			declaration
+				.cloneBefore()
+				.setNameWithVendor(names[declaration.name]);
 		}
 	});
 
@@ -32,7 +34,9 @@ module.exports = function (stylecow) {
 			name: 'border-radius'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-border-radius';
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -50,7 +54,9 @@ module.exports = function (stylecow) {
 			name: /^border-.*radius$/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 
@@ -68,7 +74,9 @@ module.exports = function (stylecow) {
 			name: /^border-(start|end|after|before)/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 
@@ -83,7 +91,9 @@ module.exports = function (stylecow) {
 			name: /^border-(start|end)/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -98,7 +108,9 @@ module.exports = function (stylecow) {
 			name: /^border-image/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -113,7 +125,9 @@ module.exports = function (stylecow) {
 			name: /^border-image/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-o-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('o');
 		}
 	});
 
@@ -130,7 +144,9 @@ module.exports = function (stylecow) {
 			name: /^border-image/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 };

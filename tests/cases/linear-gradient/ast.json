@@ -1,0 +1,523 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "linear-gradient",
+                      "vendor": "moz",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "left",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rgba",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": null
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 10
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 0.5
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "blue",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "linear-gradient",
+                      "vendor": "o",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "left",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rgba",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": null
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 10
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 0.5
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "blue",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "linear-gradient",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "left",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rgba",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": null
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 10
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 0.5
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "blue",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "gradient",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "linear",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "left",
+                              "vendor": null
+                            },
+                            {
+                              "class": "Keyword",
+                              "name": "top",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "right",
+                              "vendor": null
+                            },
+                            {
+                              "class": "Keyword",
+                              "name": "top",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "from",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Function",
+                                      "name": "rgba",
+                                      "vendor": null,
+                                      "children": [
+                                        {
+                                          "class": "Value",
+                                          "children": [
+                                            {
+                                              "class": "Number",
+                                              "name": null
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "class": "Value",
+                                          "children": [
+                                            {
+                                              "class": "Number",
+                                              "name": 20
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "class": "Value",
+                                          "children": [
+                                            {
+                                              "class": "Number",
+                                              "name": 10
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "class": "Value",
+                                          "children": [
+                                            {
+                                              "class": "Number",
+                                              "name": 0.5
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "to",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Keyword",
+                                      "name": "blue",
+                                      "vendor": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "linear-gradient",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "to",
+                              "vendor": null
+                            },
+                            {
+                              "class": "Keyword",
+                              "name": "right",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rgba",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": null
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 20
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 10
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 0.5
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "blue",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+article {
+	max-height: max-content;
+	max-height: min-content;
+	max-height: fit-content;
+	max-height: fill-available;
+}

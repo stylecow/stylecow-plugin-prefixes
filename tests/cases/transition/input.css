@@ -1,0 +1,12 @@
+article {
+	transition: all 2s;
+}
+
+div {
+	transition-property: transform;
+	transition-duration: 2s;
+}
+
+div {
+	transition: transform 2s;
+}

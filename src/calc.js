@@ -15,12 +15,12 @@ module.exports = function (stylecow) {
 			})) {
 				declaration
 					.cloneBefore()
-					.search({
+					.getAll({
 						type: 'Function',
 						name: 'calc'
 					})
 					.forEach(function (fn) {
-						fn.name = '-moz-' + fn.name;
+						fn.setVendor('moz');
 					});
 			}
 		}
@@ -44,12 +44,12 @@ module.exports = function (stylecow) {
 			})) {
 				declaration
 					.cloneBefore()
-					.search({
+					.getAll({
 						type: 'Function',
 						name: 'calc'
 					})
 					.forEach(function (fn) {
-						fn.name = '-webkit-' + fn.name;
+						fn.setVendor('webkit');
 					});
 			}
 		}

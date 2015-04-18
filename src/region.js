@@ -14,7 +14,9 @@ module.exports = function (stylecow) {
 				name: 'region-fragment'
 			},
 			fn: function (declaration) {
-				declaration.cloneBefore().name = '-webkit-region-fragment';
+				declaration
+					.cloneBefore()
+					.setVendor('webkit');
 			}
 		});
 
@@ -24,7 +26,9 @@ module.exports = function (stylecow) {
 				name: /^flow/
 			},
 			fn: function (declaration) {
-				declaration.cloneBefore().name = '-webkit-region-fragment';
+				declaration
+					.cloneBefore()
+					.setVendor('webkit');
 			}
 		});
 	});
@@ -40,7 +44,9 @@ module.exports = function (stylecow) {
 			name: /^flow/
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-ms-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('ms');
 		}
 	});
 };

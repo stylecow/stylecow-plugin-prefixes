@@ -11,23 +11,29 @@ module.exports = function (stylecow) {
 		fn: function (rule) {
 			if (
 				rule
-				.children('Selectors')
+				.getChild('Selectors')
 				.has({
-					type: 'Keyword',
-					name: ['::input-placeholder', '::selection']
+					type: 'PseudoElement',
+					name: ['input-placeholder', 'selection']
 				})
 			) {
-				rule
-					.cloneBefore()
-					.cleanVendorElements('-moz-')
-					.children('Selectors')
-					.search({
-						type: 'Keyword',
-						name: ['::input-placeholder', '::selection']
+				var clone = rule.cloneBefore();
+				
+				clone
+					.getChild('Selectors')
+					.getAll({
+						type: 'PseudoElement',
+						name: ['input-placeholder', 'selection']
 					})
-					.forEach(function (keyword) {
-						keyword.name = (keyword.name === '::input-placeholder') ? '::-moz-placeholder' : '::-moz-selection';
+					.forEach(function (pseudoElement) {
+						if (pseudoElement.name === 'input-placeholder') {
+							pseudoElement.name = 'placeholder';
+						}
+
+						pseudoElement.setVendor('moz');
 					});
+
+				clone.normalizeVendors();
 			}
 		}
 	});
@@ -47,22 +53,21 @@ module.exports = function (stylecow) {
 		fn: function (rule) {
 			if (
 				rule
-				.children('Selectors')
+				.getChild('Selectors')
 				.has({
-					type: 'Keyword',
-					name: '::input-placeholder'
+					type: 'PseudoElement',
+					name: 'input-placeholder'
 				})
 			) {
 				rule
 					.cloneBefore()
-					.cleanVendorElements('-webkit-')
-					.children('Selectors')
-					.search({
-						type: 'Keyword',
-						name: '::input-placeholder'
+					.getChild('Selectors')
+					.getAll({
+						type: 'PseudoElement',
+						name: 'input-placeholder'
 					})
-					.forEach(function (keyword) {
-						keyword.name = '::-webkit-input-placeholder';
+					.forEach(function (pseudoElement) {
+						pseudoElement.setVendor('webkit');
 					});
 			}
 		}
@@ -75,27 +80,26 @@ module.exports = function (stylecow) {
 			explorer: false
 		},
 		filter: {
-			type: 'rule'
+			type: 'Rule'
 		},
 		fn: function (rule) {
 			if (
 				rule
-				.children('Selectors')
+				.getChild('Selectors')
 				.has({
-					type: 'Keyword',
-					name: '::input-placeholder'
+					type: 'PseudoElement',
+					name: 'input-placeholder'
 				})
 			) {
 				rule
 					.cloneBefore()
-					.cleanVendorElements('-ms-')
-					.children('Selectors')
-					.search({
-						type: 'Keyword',
-						name: '::input-placeholder'
+					.getChild('Selectors')
+					.getAll({
+						type: 'PseudoElement',
+						name: 'input-placeholder'
 					})
-					.forEach(function (keyword) {
-						keyword.name = '::-ms-input-placeholder';
+					.forEach(function (pseudoElement) {
+						pseudoElement.setVendor('ms');
 					});
 			}
 		}

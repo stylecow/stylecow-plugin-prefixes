@@ -12,8 +12,8 @@ module.exports = function (stylecow) {
 		fn: function (atrule) {
 			atrule
 				.cloneBefore()
-				.cleanVendorElements('-moz-')
-				.name = '-moz-document';
+				.setVendor('moz')
+				.normalizeVendors();
 		}
 	});
 };

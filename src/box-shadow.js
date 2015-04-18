@@ -10,7 +10,9 @@ module.exports = function (stylecow) {
 			name: 'box-shadow'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-box-shadow';
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -27,7 +29,9 @@ module.exports = function (stylecow) {
 			name: 'box-shadow'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-box-shadow';
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 };

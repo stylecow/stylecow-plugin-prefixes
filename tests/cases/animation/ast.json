@@ -1,0 +1,533 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": "moz",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "fadeIn",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "from",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": "o",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "fadeIn",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "from",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": "webkit",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "fadeIn",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "from",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "fadeIn",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "from",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "animation",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "fadeIn",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "infinity",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "animation",
+              "vendor": "o",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "fadeIn",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "infinity",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "animation",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "fadeIn",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "infinity",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "animation",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "fadeIn",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "infinity",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

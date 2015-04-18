@@ -10,7 +10,9 @@ module.exports = function (stylecow) {
 			name: 'user-select'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-user-select';
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -28,7 +30,9 @@ module.exports = function (stylecow) {
 			name: 'user-select'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-user-select';
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 
@@ -43,7 +47,9 @@ module.exports = function (stylecow) {
 			name: 'user-select'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-ms-user-select';
+			declaration
+				.cloneBefore()
+				.setVendor('ms');
 		}
 	});
 };

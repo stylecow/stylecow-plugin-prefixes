@@ -1,0 +1,19 @@
+article {
+	-moz-text-align-last: left;
+	text-align-last: left;
+	-moz-font-feature-settings: "smcp" on;
+	-webkit-font-feature-settings: "smcp" on;
+	font-feature-settings: "smcp" on;
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-text-size-adjust: 80%;
+	-ms-text-size-adjust: 80%;
+	text-size-adjust: 80%;
+	-o-text-overflow: ellisis;
+	text-overflow: ellisis;
+}

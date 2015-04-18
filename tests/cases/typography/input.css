@@ -1,0 +1,8 @@
+article {
+	text-align-last: left;
+	font-feature-settings: "smcp" on;
+	hyphens: none;
+	tab-size: 4;
+	text-size-adjust: 80%;
+	text-overflow: ellisis;
+}

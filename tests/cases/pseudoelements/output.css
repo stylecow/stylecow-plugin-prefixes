@@ -1,0 +1,20 @@
+input ::-moz-placeholder {
+	color: blue;
+}
+input ::-webkit-input-placeholder {
+	color: blue;
+}
+input ::-ms-input-placeholder {
+	color: blue;
+}
+input ::input-placeholder {
+	color: blue;
+}
+div ::-moz-selection {
+	color: red;
+	background: white;
+}
+div ::selection {
+	color: red;
+	background: white;
+}

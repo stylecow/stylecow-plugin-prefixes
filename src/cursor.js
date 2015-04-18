@@ -16,13 +16,11 @@ module.exports = function (stylecow) {
 			})) {
 				declaration
 					.cloneBefore()
-					.search({
+					.get({
 						type: 'Keyword',
 						name: ['zoom-in', 'zoom-out']
 					})
-					.forEach(function (keyword) {
-						keyword.name = '-moz-' + keyword.name;
-					});
+					.setVendor('moz');
 			}
 		}
 	});
@@ -44,13 +42,11 @@ module.exports = function (stylecow) {
 			})) {
 				declaration
 					.cloneBefore()
-					.search({
+					.get({
 						type: 'Keyword',
 						name: ['grab', 'grabbing']
 					})
-					.forEach(function (keyword) {
-						keyword.name = '-moz-' + keyword.name;
-					});
+					.setVendor('moz');
 			}
 		}
 	});
@@ -75,13 +71,11 @@ module.exports = function (stylecow) {
 			})) {
 				declaration
 					.cloneBefore()
-					.search({
+					.get({
 						type: 'Keyword',
 						name: ['zoom-in', 'zoom-out', 'grab', 'grabbing']
 					})
-					.forEach(function (keyword) {
-						keyword.name = '-webkit-' + keyword.name;
-					});
+					.setVendor('webkit');
 			}
 		}
 	});

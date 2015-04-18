@@ -1,0 +1,15 @@
+div {
+	border-radius: 5px;
+	border-top-left-radius: 10px;
+}
+
+section {
+	border-start: 2px solid green;
+	border-end-color: blue;
+	border-after: 1px solid;
+	border-before-width: 2px dotted;
+}
+
+article {
+	border-image: url("/images/border.png") 30 30 repeat;
+}

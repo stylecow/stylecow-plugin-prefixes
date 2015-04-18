@@ -8,16 +8,21 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'Declaration',
-				string: 'display: grid;'
+				name: 'display'
 			},
 			fn: function (declaration) {
-				declaration
-					.cloneBefore()
-					.searchFirst({
-						type: 'Keyword',
-						name: 'grid'
-					})
-					.name = '-ms-grid';
+				if (declaration.has({
+					type: 'Keyword',
+					name: 'grid'
+				})) {
+					declaration
+						.cloneBefore()
+						.get({
+							type: 'Keyword',
+							name: 'grid'
+						})
+						.setVendor('ms');
+				}
 			}
 		});
 
@@ -27,7 +32,9 @@ module.exports = function (stylecow) {
 				name: /^grid.*$/
 			},
 			fn: function (declaration) {
-				declaration.cloneBefore().name = '-ms-' + declaration.name;
+				declaration
+					.cloneBefore()
+					.setVendor('ms');
 			}
 		});
 	});

@@ -1,0 +1,13 @@
+article {
+	-webkit-flow-into: article-flow;
+	-ms-flow-into: article-flow;
+	flow-into: article-flow;
+}
+#region-1, #region-2 {
+	-webkit-flow-from: article-flow;
+	-ms-flow-from: article-flow;
+	flow-from: article-flow;
+	-webkit-region-fragment: break;
+	region-fragment: break;
+	overflow: visible;
+}

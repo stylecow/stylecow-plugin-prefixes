@@ -15,13 +15,8 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			declaration
 				.cloneBefore()
-				.search({
-					type: 'Keyword',
-					name: 'sticky'
-				})
-				.forEach(function (keyword) {
-					keyword.name = '-webkit-' + keyword.name;
-				});
+				.get('Keyword')
+				.setVendor('webkit');
 		}
 	});
 };

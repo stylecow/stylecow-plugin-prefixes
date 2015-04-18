@@ -15,7 +15,9 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -37,7 +39,9 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 
@@ -55,7 +59,9 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-ms-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('ms');
 		}
 	});
 
@@ -70,7 +76,9 @@ module.exports = function (stylecow) {
 			name: 'text-overflow'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-o-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('o');
 		}
 	});
 
@@ -85,7 +93,9 @@ module.exports = function (stylecow) {
 			name: 'tab-size'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-o-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('o');
 		}
 	});
 };

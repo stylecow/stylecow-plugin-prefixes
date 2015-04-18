@@ -1,0 +1,6 @@
+div {
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: 20% 10%;
+	object-position: 20% 10%;
+}

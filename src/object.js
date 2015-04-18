@@ -10,7 +10,9 @@ module.exports = function (stylecow) {
 			name: ['object-fit', 'object-position']
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-o-' + declaration.name;
+			declaration
+				.cloneBefore()
+				.setVendor('o');
 		}
 	});
 };

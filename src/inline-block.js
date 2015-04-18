@@ -16,11 +16,11 @@ module.exports = function (stylecow) {
 			})) {
 				declaration
 					.cloneBefore()
-					.searchFirst({
+					.get({
 						type: 'Keyword',
 						name: 'inline-block'
 					})
-					.name = '-moz-inline-block';
+					.setVendor('moz');
 			}
 		}
 	});

@@ -13,7 +13,7 @@ module.exports = function (stylecow) {
 			fn: function (declaration) {
 				declaration
 					.cloneBefore()
-					.set('name', '-moz-' + declaration.name);
+					.setVendor('moz');
 			}
 		});
 
@@ -25,8 +25,8 @@ module.exports = function (stylecow) {
 			fn: function (atrule) {
 				atrule
 					.cloneBefore()
-					.cleanVendorElements('-moz-')
-					.set('name', '-moz-' + atrule.name);
+					.setVendor('moz')
+					.normalizeVendors();
 			}
 		});
 	});
@@ -45,7 +45,7 @@ module.exports = function (stylecow) {
 			fn: function (declaration) {
 				declaration
 					.cloneBefore()
-					.set('name', '-o-' + declaration.name);
+					.setVendor('o');
 			}
 		});
 
@@ -57,8 +57,8 @@ module.exports = function (stylecow) {
 			fn: function (atrule) {
 				atrule
 					.cloneBefore()
-					.cleanVendorElements('-o-')
-					.set('name', '-o-' + atrule.name);
+					.setVendor('o')
+					.normalizeVendors();
 			}
 		});
 	});
@@ -80,7 +80,7 @@ module.exports = function (stylecow) {
 			fn: function (declaration) {
 				declaration
 					.cloneBefore()
-					.set('name', '-webkit-' + declaration.name);
+					.setVendor('webkit');
 			}
 		});
 
@@ -92,8 +92,8 @@ module.exports = function (stylecow) {
 			fn: function (atrule) {
 				atrule
 					.cloneBefore()
-					.cleanVendorElements('-webkit-')
-					.set('name', '-webkit-' + atrule.name);
+					.setVendor('webkit')
+					.normalizeVendors();
 			}
 		});
 	});

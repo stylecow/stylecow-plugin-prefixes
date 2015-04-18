@@ -10,7 +10,9 @@ module.exports = function (stylecow) {
 			name: 'appearance'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-appearance';
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -27,7 +29,9 @@ module.exports = function (stylecow) {
 			name: 'appearance'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-appearance';
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 };

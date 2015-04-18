@@ -1,0 +1,1799 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": "moz",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "transform",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "moz",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "moz",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": "o",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "transform",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "o",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "o",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": "webkit",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "transform",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "transform",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "moz",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "o",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "ms",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "moz",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "o",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": "ms",
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "transform",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Function",
+                              "name": "rotate",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "deg",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": -45
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Function",
+                              "name": "scale",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Number",
+                                      "name": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "PseudoElement",
+                  "name": "selection",
+                  "vendor": "moz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "transition",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "all",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transition",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "all",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "PseudoElement",
+                  "name": "selection",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "transition",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "all",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transition",
+              "vendor": "o",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "all",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transition",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "all",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transition",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "all",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

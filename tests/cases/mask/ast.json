@@ -1,0 +1,223 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "mask-image",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "url",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "String",
+                          "name": "images/mymask.png"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "mask-image",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "url",
+                      "children": [
+                        {
+                          "class": "String",
+                          "name": "images/mymask.png"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "example"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "mask",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "url",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "String",
+                          "name": "mask.png"
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "no-repeat",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "fixed",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 20
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 20
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "padding",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "padding",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "mask",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "url",
+                      "children": [
+                        {
+                          "class": "String",
+                          "name": "mask.png"
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "no-repeat",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "fixed",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 20
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 20
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "padding",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "padding",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

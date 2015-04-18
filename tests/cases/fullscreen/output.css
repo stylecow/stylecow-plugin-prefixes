@@ -1,0 +1,12 @@
+div:-moz-full-screen {
+	background: yellow;
+}
+div:-webkit-full-screen {
+	background: yellow;
+}
+div:-ms-fullscreen {
+	background: yellow;
+}
+div:fullscreen {
+	background: yellow;
+}

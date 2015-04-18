@@ -10,7 +10,9 @@ module.exports = function (stylecow) {
 			name: 'box-sizing'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-moz-box-sizing';
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
 		}
 	});
 
@@ -28,7 +30,9 @@ module.exports = function (stylecow) {
 			name: 'box-sizing'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '-webkit-box-sizing';
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
 		}
 	});
 };

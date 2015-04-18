@@ -10,9 +10,9 @@ module.exports = function (stylecow) {
 	require('./src/cursor')(stylecow);
 	require('./src/document')(stylecow);
 	require('./src/fullscreen')(stylecow);
+	require('./src/grid')(stylecow);
 	require('./src/inline-block')(stylecow);
 	require('./src/linear-gradient')(stylecow);
-	require('./src/grid')(stylecow);
 	require('./src/mask')(stylecow);
 	require('./src/object')(stylecow);
 	require('./src/pseudoelements')(stylecow);

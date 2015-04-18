@@ -1,0 +1,8 @@
+article {
+	flow-into: article-flow;
+}
+#region-1, #region-2 {
+	flow-from: article-flow;
+	region-fragment: break;
+	overflow: visible;
+}

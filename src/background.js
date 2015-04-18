@@ -16,7 +16,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			declaration
 				.cloneBefore()
-				.set('name', '-moz-' + declaration.name);
+				.setVendor('moz');
 		}
 	});
 
@@ -37,7 +37,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			declaration
 				.cloneBefore()
-				.set('name', '-o-' + declaration.name);
+				.setVendor('o');
 		}
 	});
 
@@ -58,7 +58,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			declaration
 				.cloneBefore()
-				.set('name', '-webkit-' + declaration.name);
+				.setVendor('webkit');
 		}
 	});
 };

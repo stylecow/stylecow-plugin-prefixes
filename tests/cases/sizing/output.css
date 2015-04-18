@@ -1,0 +1,14 @@
+article {
+	max-height: -moz-max-content;
+	max-height: -webkit-max-content;
+	max-height: max-content;
+	max-height: -moz-min-content;
+	max-height: -webkit-min-content;
+	max-height: min-content;
+	max-height: -moz-fit-content;
+	max-height: -webkit-fit-content;
+	max-height: fit-content;
+	max-height: -moz-available;
+	max-height: -webkit-fill-available;
+	max-height: fill-available;
+}

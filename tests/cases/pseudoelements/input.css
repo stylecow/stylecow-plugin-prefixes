@@ -1,0 +1,8 @@
+input ::input-placeholder {
+	color: blue;
+}
+
+div ::selection {
+	color: red;
+	background: white
+}
