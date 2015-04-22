@@ -1,5 +1,5 @@
 div {
-	width: -moz-calc(23px  +  10%);
-	width: -webkit-calc(23px  +  10%);
-	width: calc(23px  +  10%);
+	width: -moz-calc(23px + 10%);
+	width: -webkit-calc(23px + 10%);
+	width: calc(23px + 10%);
 }
