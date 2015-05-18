@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "border-radius",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -46,7 +46,7 @@
             {
               "class": "Declaration",
               "name": "border-radius",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -89,8 +89,8 @@
             },
             {
               "class": "Declaration",
-              "name": "border-radius-topleft",
-              "vendor": "moz",
+              "name": "border-top-left-radius",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -111,8 +111,8 @@
             },
             {
               "class": "Declaration",
-              "name": "border-top-left-radius",
-              "vendor": "webkit",
+              "name": "border-radius-topleft",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -180,7 +180,7 @@
             {
               "class": "Declaration",
               "name": "border-start",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -212,7 +212,7 @@
             {
               "class": "Declaration",
               "name": "border-start",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -276,7 +276,7 @@
             {
               "class": "Declaration",
               "name": "border-end-color",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -293,7 +293,7 @@
             {
               "class": "Declaration",
               "name": "border-end-color",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -459,7 +459,7 @@
             {
               "class": "Declaration",
               "name": "border-image",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -531,7 +531,7 @@
             {
               "class": "Declaration",
               "name": "border-image",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",

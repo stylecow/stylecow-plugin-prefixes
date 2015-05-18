@@ -16,8 +16,8 @@
                 },
                 {
                   "class": "PseudoClass",
-                  "name": "full-screen",
-                  "vendor": "moz"
+                  "name": "fullscreen",
+                  "vendor": "ms"
                 }
               ]
             }
@@ -108,8 +108,8 @@
                 },
                 {
                   "class": "PseudoClass",
-                  "name": "fullscreen",
-                  "vendor": "ms"
+                  "name": "full-screen",
+                  "vendor": "moz"
                 }
               ]
             }

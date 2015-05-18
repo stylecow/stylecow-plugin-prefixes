@@ -1,10 +1,10 @@
-input ::-moz-placeholder {
+input ::-ms-input-placeholder {
 	color: blue;
 }
 input ::-webkit-input-placeholder {
 	color: blue;
 }
-input ::-ms-input-placeholder {
+input ::-moz-placeholder {
 	color: blue;
 }
 input ::input-placeholder {

@@ -55,6 +55,36 @@ module.exports = function (stylecow) {
 	//Adds -webkit- vendor prefix to some cursor values
 	stylecow.addTask({
 		forBrowsersLowerThan: {
+			chrome: 37.0,
+			opera: 24.0,
+			safari: false,
+			android: false,
+			ios: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'cursor'
+		},
+		fn: function (declaration) {
+			if (declaration.has({
+				type: 'Keyword',
+				name: ['zoom-in', 'zoom-out']
+			})) {
+				declaration
+					.cloneBefore()
+					.get({
+						type: 'Keyword',
+						name: ['zoom-in', 'zoom-out']
+					})
+					.setVendor('webkit');
+			}
+		}
+	});
+
+
+	//Adds -webkit- vendor prefix to some cursor values
+	stylecow.addTask({
+		forBrowsersLowerThan: {
 			chrome: false,
 			safari: false,
 			android: false,
@@ -67,13 +97,13 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			if (declaration.has({
 				type: 'Keyword',
-				name: ['zoom-in', 'zoom-out', 'grab', 'grabbing']
+				name: ['grab', 'grabbing']
 			})) {
 				declaration
 					.cloneBefore()
 					.get({
 						type: 'Keyword',
-						name: ['zoom-in', 'zoom-out', 'grab', 'grabbing']
+						name: ['grab', 'grabbing']
 					})
 					.setVendor('webkit');
 			}

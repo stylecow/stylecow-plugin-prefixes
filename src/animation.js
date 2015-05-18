@@ -66,7 +66,7 @@ module.exports = function (stylecow) {
 
 	//Adds -webkit- vendor prefixes
 	stylecow.forBrowsersLowerThan({
-		chrome: false,
+		chrome: 43,
 		safari: false,
 		android: false,
 		ios: false

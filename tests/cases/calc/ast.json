@@ -32,7 +32,7 @@
                     {
                       "class": "Function",
                       "name": "calc",
-                      "vendor": "moz",
+                      "vendor": "webkit",
                       "children": [
                         {
                           "class": "Value",
@@ -80,7 +80,7 @@
                     {
                       "class": "Function",
                       "name": "calc",
-                      "vendor": "webkit",
+                      "vendor": "moz",
                       "children": [
                         {
                           "class": "Value",

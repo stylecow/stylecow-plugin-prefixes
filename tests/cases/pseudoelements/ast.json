@@ -20,8 +20,8 @@
                 },
                 {
                   "class": "PseudoElement",
-                  "name": "placeholder",
-                  "vendor": "moz"
+                  "name": "input-placeholder",
+                  "vendor": "ms"
                 }
               ]
             }
@@ -120,8 +120,8 @@
                 },
                 {
                   "class": "PseudoElement",
-                  "name": "input-placeholder",
-                  "vendor": "ms"
+                  "name": "placeholder",
+                  "vendor": "moz"
                 }
               ]
             }

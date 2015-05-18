@@ -1,4 +1,4 @@
-@-moz-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
 	from {
 		opacity: 0;
 	}
@@ -14,7 +14,7 @@
 		opacity: 1;
 	}
 }
-@-webkit-keyframes fadeIn {
+@-moz-keyframes fadeIn {
 	from {
 		opacity: 0;
 	}
@@ -31,8 +31,8 @@
 	}
 }
 div {
-	-moz-animation: fadeIn 2s infinity;
-	-o-animation: fadeIn 2s infinity;
 	-webkit-animation: fadeIn 2s infinity;
+	-o-animation: fadeIn 2s infinity;
+	-moz-animation: fadeIn 2s infinity;
 	animation: fadeIn 2s infinity;
 }

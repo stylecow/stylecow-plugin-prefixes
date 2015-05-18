@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -78,7 +78,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -156,7 +156,7 @@
             {
               "class": "Declaration",
               "name": "transition-property",
-              "vendor": "moz",
+              "vendor": null,
               "children": [
                 {
                   "class": "Value",
@@ -164,24 +164,7 @@
                     {
                       "class": "Keyword",
                       "name": "transform",
-                      "vendor": "moz"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "transition-property",
-              "vendor": "o",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "transform",
-                      "vendor": "o"
+                      "vendor": "ms"
                     }
                   ]
                 }
@@ -207,7 +190,7 @@
             {
               "class": "Declaration",
               "name": "transition-property",
-              "vendor": null,
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",
@@ -215,7 +198,24 @@
                     {
                       "class": "Keyword",
                       "name": "transform",
-                      "vendor": "ms"
+                      "vendor": "o"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transition-property",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "transform",
+                      "vendor": "moz"
                     }
                   ]
                 }
@@ -241,7 +241,7 @@
             {
               "class": "Declaration",
               "name": "transition-duration",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -285,7 +285,7 @@
             {
               "class": "Declaration",
               "name": "transition-duration",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -353,7 +353,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": "moz",
+              "vendor": null,
               "children": [
                 {
                   "class": "Value",
@@ -361,34 +361,7 @@
                     {
                       "class": "Keyword",
                       "name": "transform",
-                      "vendor": "moz"
-                    },
-                    {
-                      "class": "Unit",
-                      "name": "s",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 2
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "transition",
-              "vendor": "o",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "transform",
-                      "vendor": "o"
+                      "vendor": "ms"
                     },
                     {
                       "class": "Unit",
@@ -434,7 +407,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": null,
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",
@@ -442,7 +415,34 @@
                     {
                       "class": "Keyword",
                       "name": "transform",
-                      "vendor": "ms"
+                      "vendor": "o"
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "s",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transition",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "transform",
+                      "vendor": "moz"
                     },
                     {
                       "class": "Unit",

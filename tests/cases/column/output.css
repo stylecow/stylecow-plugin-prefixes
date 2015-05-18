@@ -1,11 +1,11 @@
 div {
-	-moz-columns: 2 auto;
 	-webkit-columns: 2 auto;
+	-moz-columns: 2 auto;
 	columns: 2 auto;
-	-moz-column-rule: solid 2px red;
 	-webkit-column-rule: solid 2px red;
+	-moz-column-rule: solid 2px red;
 	column-rule: solid 2px red;
-	-moz-column-gap: 10px;
 	-webkit-column-gap: 10px;
+	-moz-column-gap: 10px;
 	column-gap: 10px;
 }

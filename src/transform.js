@@ -20,9 +20,10 @@ module.exports = function (stylecow) {
 	//Add -webkit- vendor prefix
 	stylecow.addTask({
 		forBrowsersLowerThan: {
-			chrome: false,
+			chrome: 36.0,
+			opera: 23.0,
 			safari: false,
-			android: false,
+			android: 40.0,
 			ios: false
 		},
 		filter: {

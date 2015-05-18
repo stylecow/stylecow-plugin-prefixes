@@ -1,10 +1,10 @@
-div:-moz-full-screen {
+div:-ms-fullscreen {
 	background: yellow;
 }
 div:-webkit-full-screen {
 	background: yellow;
 }
-div:-ms-fullscreen {
+div:-moz-full-screen {
 	background: yellow;
 }
 div:fullscreen {

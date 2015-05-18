@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "user-select",
-              "vendor": "moz",
+              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",
@@ -58,7 +58,7 @@
             {
               "class": "Declaration",
               "name": "user-select",
-              "vendor": "ms",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",

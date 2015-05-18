@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "box-shadow",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -99,7 +99,7 @@
             {
               "class": "Declaration",
               "name": "box-shadow",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",

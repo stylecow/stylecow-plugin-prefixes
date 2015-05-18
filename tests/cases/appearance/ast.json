@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "appearance",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -41,7 +41,7 @@
             {
               "class": "Declaration",
               "name": "appearance",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",

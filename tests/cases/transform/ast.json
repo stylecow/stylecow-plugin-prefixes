@@ -24,66 +24,7 @@
             {
               "class": "Declaration",
               "name": "transform",
-              "vendor": "moz",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Function",
-                      "name": "scale",
-                      "vendor": null,
-                      "children": [
-                        {
-                          "class": "Value",
-                          "children": [
-                            {
-                              "class": "Number",
-                              "name": 1.5
-                            }
-                          ]
-                        },
-                        {
-                          "class": "Value",
-                          "children": [
-                            {
-                              "class": "Number",
-                              "name": 2
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "class": "Function",
-                      "name": "rotate",
-                      "vendor": null,
-                      "children": [
-                        {
-                          "class": "Value",
-                          "children": [
-                            {
-                              "class": "Unit",
-                              "name": "deg",
-                              "children": [
-                                {
-                                  "class": "Number",
-                                  "name": 45
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "transform",
-              "vendor": "webkit",
+              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",
@@ -201,7 +142,66 @@
             {
               "class": "Declaration",
               "name": "transform",
-              "vendor": "ms",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "scale",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1.5
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 2
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Function",
+                      "name": "rotate",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "deg",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 45
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transform",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
