@@ -1,0 +1,4 @@
+div {
+	background-image: -webkit-image-set("foo.png" 1x, "foo-2x.png" 2x, "foo-print.png" 600dpi);
+	background-image: image-set("foo.png" 1x, "foo-2x.png" 2x, "foo-print.png" 600dpi);
+}
