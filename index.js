@@ -3,6 +3,7 @@ module.exports = function (stylecow) {
 	require('./src/appearance')(stylecow);
 	require('./src/background')(stylecow);
 	require('./src/border')(stylecow);
+	require('./src/box-decoration-break')(stylecow);
 	require('./src/box-shadow')(stylecow);
 	require('./src/box-sizing')(stylecow);
 	require('./src/calc')(stylecow);
