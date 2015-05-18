@@ -12,6 +12,7 @@ module.exports = function (stylecow) {
 	require('./src/document')(stylecow);
 	require('./src/fullscreen')(stylecow);
 	require('./src/grid')(stylecow);
+	require('./src/image-rendering')(stylecow);
 	require('./src/inline-block')(stylecow);
 	require('./src/linear-gradient')(stylecow);
 	require('./src/mask')(stylecow);

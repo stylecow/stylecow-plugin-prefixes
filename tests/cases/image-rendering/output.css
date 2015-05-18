@@ -1,0 +1,5 @@
+div {
+	image-rendering: -webkit-crisp-edges;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: crisp-edges;
+}
