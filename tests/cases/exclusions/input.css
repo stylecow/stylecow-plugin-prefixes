@@ -1,0 +1,7 @@
+div {
+	wrap-flow: both;
+}
+
+section {
+	wrap-through: wrap;
+}

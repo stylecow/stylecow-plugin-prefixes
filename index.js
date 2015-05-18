@@ -10,6 +10,7 @@ module.exports = function (stylecow) {
 	require('./src/column')(stylecow);
 	require('./src/cursor')(stylecow);
 	require('./src/document')(stylecow);
+	require('./src/exclusions')(stylecow);
 	require('./src/fullscreen')(stylecow);
 	require('./src/grid')(stylecow);
 	require('./src/image-rendering')(stylecow);

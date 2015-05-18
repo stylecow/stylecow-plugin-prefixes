@@ -1,0 +1,8 @@
+div {
+	-ms-wrap-flow: both;
+	wrap-flow: both;
+}
+section {
+	-ms-wrap-through: wrap;
+	wrap-through: wrap;
+}
