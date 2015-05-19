@@ -1,0 +1,7 @@
+img {
+    scroll-snap-coordinate: 50% 50%;
+}
+.photoGallery {
+    scroll-snap-destination: 50% 50%;
+    scroll-snap-type: mandatory;
+}
