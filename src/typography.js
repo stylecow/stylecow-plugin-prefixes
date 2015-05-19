@@ -9,10 +9,25 @@ module.exports = function (stylecow) {
 			type: 'Declaration',
 			name: [
 				'text-align-last',
-				'font-feature-settings',
 				'hyphens',
 				'tab-size'
 			]
+		},
+		fn: function (declaration) {
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
+		}
+	});
+
+	// Adds -moz- vendor prefix to font-feature-settings
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: 36
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'font-feature-settings'
 		},
 		fn: function (declaration) {
 			declaration
