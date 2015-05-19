@@ -1,0 +1,10 @@
+.float {
+	-webkit-shape-outside: polygon(10px 10px, 90px 50px, 40px 50px, 90px 90px, 10px 90px);
+	shape-outside: polygon(10px 10px, 90px 50px, 40px 50px, 90px 90px, 10px 90px);
+	-webkit-shape-margin: 10px;
+	shape-margin: 10px;
+}
+img.float {
+	-webkit-shape-image-threshold: 0.5;
+	shape-image-threshold: 0.5;
+}

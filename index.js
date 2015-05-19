@@ -23,6 +23,7 @@ module.exports = function (stylecow) {
 	require('./src/pseudoelements')(stylecow);
 	require('./src/region')(stylecow);
 	require('./src/repeating-linear-gradient')(stylecow);
+	require('./src/shapes')(stylecow);
 	require('./src/sizing')(stylecow);
 	require('./src/sticky')(stylecow);
 	require('./src/transform')(stylecow);
