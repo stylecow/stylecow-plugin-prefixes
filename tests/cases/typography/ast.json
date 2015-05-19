@@ -333,6 +333,40 @@
                   ]
                 }
               ]
+            },
+            {
+              "class": "Declaration",
+              "name": "font-kerning",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "font-kerning",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

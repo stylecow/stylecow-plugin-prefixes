@@ -113,4 +113,25 @@ module.exports = function (stylecow) {
 				.setVendor('o');
 		}
 	});
+
+
+	// Adds -webkit- vendor prefix to font-kerning
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			chrome: 33.0,
+			safari: false,
+			opera: 20,
+			ios: false,
+			android: 4.5,
+		},
+		filter: {
+			type: 'Declaration',
+			name: 'font-kerning'
+		},
+		fn: function (declaration) {
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
+		}
+	});
 };

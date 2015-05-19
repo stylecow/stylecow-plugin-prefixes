@@ -16,4 +16,6 @@ article {
 	text-size-adjust: 80%;
 	-o-text-overflow: ellisis;
 	text-overflow: ellisis;
+	-webkit-font-kerning: none;
+	font-kerning: none;
 }

@@ -5,4 +5,5 @@ article {
 	tab-size: 4;
 	text-size-adjust: 80%;
 	text-overflow: ellisis;
+	font-kerning: none;
 }
