@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 	require('./src/box-shadow')(stylecow);
 	require('./src/box-sizing')(stylecow);
 	require('./src/calc')(stylecow);
+	require('./src/clip-path')(stylecow);
 	require('./src/column')(stylecow);
 	require('./src/cursor')(stylecow);
 	require('./src/document')(stylecow);
@@ -21,6 +22,7 @@ module.exports = function (stylecow) {
 	require('./src/object')(stylecow);
 	require('./src/pseudoelements')(stylecow);
 	require('./src/region')(stylecow);
+	require('./src/repeating-linear-gradient')(stylecow);
 	require('./src/sizing')(stylecow);
 	require('./src/sticky')(stylecow);
 	require('./src/transform')(stylecow);
