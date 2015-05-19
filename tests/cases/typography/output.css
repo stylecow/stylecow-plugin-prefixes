@@ -1,6 +1,12 @@
 article {
 	-moz-text-align-last: left;
 	text-align-last: left;
+	-webkit-text-decoration-color: blue;
+	-moz-text-decoration-color: blue;
+	text-decoration-color: blue;
+	-webkit-text-decoration-style: dotted;
+	-moz-text-decoration-style: dotted;
+	text-decoration-style: dotted;
 	-webkit-font-feature-settings: "smcp" on;
 	-moz-font-feature-settings: "smcp" on;
 	font-feature-settings: "smcp" on;

@@ -134,4 +134,39 @@ module.exports = function (stylecow) {
 				.setVendor('webkit');
 		}
 	});
+
+
+	// Adds -moz- vendor prefix to text-decoration
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: 36.0
+		},
+		filter: {
+			type: 'Declaration',
+			name: ['text-decoration-line', 'text-decoration-color', 'text-decoration-style']
+		},
+		fn: function (declaration) {
+			declaration
+				.cloneBefore()
+				.setVendor('moz');
+		}
+	});
+
+
+	// Adds -webkit- vendor prefix to text-decoration
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			safari: false,
+			ios: false
+		},
+		filter: {
+			type: 'Declaration',
+			name: ['text-decoration-line', 'text-decoration-color', 'text-decoration-style']
+		},
+		fn: function (declaration) {
+			declaration
+				.cloneBefore()
+				.setVendor('webkit');
+		}
+	});
 };

@@ -57,6 +57,108 @@
             },
             {
               "class": "Declaration",
+              "name": "text-decoration-color",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "blue",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "text-decoration-color",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "blue",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "text-decoration-color",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "blue",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "text-decoration-style",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "dotted",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "text-decoration-style",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "dotted",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "text-decoration-style",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "dotted",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
               "name": "font-feature-settings",
               "vendor": "webkit",
               "children": [

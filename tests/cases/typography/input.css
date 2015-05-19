@@ -1,5 +1,7 @@
 article {
 	text-align-last: left;
+	text-decoration-color: blue;
+	text-decoration-style: dotted;
 	font-feature-settings: "smcp" on;
 	hyphens: none;
 	tab-size: 4;
