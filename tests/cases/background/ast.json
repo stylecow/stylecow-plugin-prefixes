@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "background-size",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -58,7 +58,7 @@
             {
               "class": "Declaration",
               "name": "background-size",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -92,7 +92,7 @@
             {
               "class": "Declaration",
               "name": "background-origin",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -126,7 +126,7 @@
             {
               "class": "Declaration",
               "name": "background-origin",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -160,7 +160,7 @@
             {
               "class": "Declaration",
               "name": "background-clip",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -194,7 +194,7 @@
             {
               "class": "Declaration",
               "name": "background-clip",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",

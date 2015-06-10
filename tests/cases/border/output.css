@@ -1,17 +1,17 @@
 div {
-	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	-webkit-border-top-left-radius: 10px;
 	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
 	border-top-left-radius: 10px;
 }
 section {
-	-moz-border-start: 2px solid green;
 	-webkit-border-start: 2px solid green;
+	-moz-border-start: 2px solid green;
 	border-start: 2px solid green;
-	-moz-border-end-color: blue;
 	-webkit-border-end-color: blue;
+	-moz-border-end-color: blue;
 	border-end-color: blue;
 	-webkit-border-after: 1px solid;
 	border-after: 1px solid;
@@ -19,8 +19,8 @@ section {
 	border-before-width: 2px dotted;
 }
 article {
-	-webkit-border-image: url("/images/border.png") 30 30 repeat;
-	-o-border-image: url("/images/border.png") 30 30 repeat;
 	-moz-border-image: url("/images/border.png") 30 30 repeat;
+	-o-border-image: url("/images/border.png") 30 30 repeat;
+	-webkit-border-image: url("/images/border.png") 30 30 repeat;
 	border-image: url("/images/border.png") 30 30 repeat;
 }

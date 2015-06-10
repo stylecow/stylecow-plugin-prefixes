@@ -14,6 +14,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: Object.keys(names)
 		},
 		fn: function (declaration) {
@@ -31,6 +32,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'border-radius'
 		},
 		fn: function (declaration) {
@@ -51,6 +53,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^border-.*radius$/
 		},
 		fn: function (declaration) {

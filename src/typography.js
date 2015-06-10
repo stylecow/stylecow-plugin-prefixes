@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: [
 				'text-align-last',
 				'hyphens',
@@ -27,6 +28,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'font-feature-settings'
 		},
 		fn: function (declaration) {
@@ -47,6 +49,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: [
 				'font-feature-settings',
 				'text-size-adjust',
@@ -68,6 +71,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: [
 				'text-size-adjust',
 				'hyphens'
@@ -88,6 +92,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'text-overflow'
 		},
 		fn: function (declaration) {
@@ -105,6 +110,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'tab-size'
 		},
 		fn: function (declaration) {
@@ -126,6 +132,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'font-kerning'
 		},
 		fn: function (declaration) {
@@ -143,6 +150,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: ['text-decoration-line', 'text-decoration-color', 'text-decoration-style']
 		},
 		fn: function (declaration) {
@@ -161,6 +169,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: ['text-decoration-line', 'text-decoration-color', 'text-decoration-style']
 		},
 		fn: function (declaration) {

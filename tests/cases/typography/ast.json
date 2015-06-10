@@ -58,23 +58,6 @@
             {
               "class": "Declaration",
               "name": "text-decoration-color",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "blue",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "text-decoration-color",
               "vendor": "moz",
               "children": [
                 {
@@ -92,6 +75,23 @@
             {
               "class": "Declaration",
               "name": "text-decoration-color",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "blue",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "text-decoration-color",
               "vendor": null,
               "children": [
                 {
@@ -109,7 +109,7 @@
             {
               "class": "Declaration",
               "name": "text-decoration-style",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -126,7 +126,7 @@
             {
               "class": "Declaration",
               "name": "text-decoration-style",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -160,7 +160,7 @@
             {
               "class": "Declaration",
               "name": "font-feature-settings",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -181,7 +181,7 @@
             {
               "class": "Declaration",
               "name": "font-feature-settings",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -214,6 +214,40 @@
                     {
                       "class": "Keyword",
                       "name": "on",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "hyphens",
+              "vendor": "moz",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "hyphens",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none",
                       "vendor": null
                     }
                   ]
@@ -224,40 +258,6 @@
               "class": "Declaration",
               "name": "hyphens",
               "vendor": "ms",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "none",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "hyphens",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "none",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "hyphens",
-              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -339,7 +339,7 @@
             {
               "class": "Declaration",
               "name": "text-size-adjust",
-              "vendor": "ms",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -361,7 +361,7 @@
             {
               "class": "Declaration",
               "name": "text-size-adjust",
-              "vendor": "webkit",
+              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",

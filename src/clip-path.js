@@ -11,6 +11,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'clip-path'
 		},
 		fn: function (declaration) {

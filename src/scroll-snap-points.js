@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^scroll-snap-.*/
 		},
 		fn: function (declaration) {

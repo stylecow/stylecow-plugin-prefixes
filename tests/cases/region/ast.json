@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "flow-into",
-              "vendor": "ms",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -41,7 +41,7 @@
             {
               "class": "Declaration",
               "name": "flow-into",
-              "vendor": "webkit",
+              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",
@@ -108,7 +108,7 @@
             {
               "class": "Declaration",
               "name": "flow-from",
-              "vendor": "ms",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -125,7 +125,7 @@
             {
               "class": "Declaration",
               "name": "flow-from",
-              "vendor": "webkit",
+              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",

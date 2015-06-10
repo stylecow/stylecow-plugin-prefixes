@@ -32,7 +32,7 @@
                     {
                       "class": "Keyword",
                       "name": "crisp-edges",
-                      "vendor": "webkit"
+                      "vendor": "moz"
                     }
                   ]
                 }
@@ -49,7 +49,7 @@
                     {
                       "class": "Keyword",
                       "name": "crisp-edges",
-                      "vendor": "moz"
+                      "vendor": "webkit"
                     }
                   ]
                 }

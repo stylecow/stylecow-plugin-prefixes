@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: ['wrap-flow', 'wrap-through']
 		},
 		fn: function (declaration) {

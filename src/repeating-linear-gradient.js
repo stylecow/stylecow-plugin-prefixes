@@ -11,6 +11,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			if (declaration.has({
 				type: 'Function',
+				vendor: false,
 				name: 'repeating-linear-gradient'
 			})) {
 				declaration
@@ -38,6 +39,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			if (declaration.has({
 				type: 'Function',
+				vendor: false,
 				name: 'repeating-linear-gradient'
 			})) {
 				declaration
@@ -68,6 +70,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			if (declaration.has({
 				type: 'Function',
+				vendor: false,
 				name: 'repeating-linear-gradient'
 			})) {
 				declaration

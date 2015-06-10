@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "box-decoration-break",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -41,7 +41,7 @@
             {
               "class": "Declaration",
               "name": "box-decoration-break",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",

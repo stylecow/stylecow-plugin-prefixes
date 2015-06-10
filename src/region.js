@@ -11,6 +11,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'Declaration',
+				vendor: false,
 				name: 'region-fragment'
 			},
 			fn: function (declaration) {
@@ -23,6 +24,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'Declaration',
+				vendor: false,
 				name: /^flow/
 			},
 			fn: function (declaration) {

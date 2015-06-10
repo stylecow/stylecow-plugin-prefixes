@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: [
 				'background-size',
 				'background-clip',
@@ -28,6 +29,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: [
 				'background-size',
 				'background-clip',
@@ -49,6 +51,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: [
 				'background-size',
 				'background-clip',

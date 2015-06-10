@@ -11,6 +11,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'box-decoration-break'
 		},
 		fn: function (declaration) {
@@ -27,6 +28,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'box-decoration-break'
 		},
 		fn: function (declaration) {

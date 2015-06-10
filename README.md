@@ -1,6 +1,8 @@
 stylecow plugin prefixes
 ========================
 
+[![Build Status](https://travis-ci.org/stylecow/stylecow-plugin-prefixes.svg)](https://travis-ci.org/stylecow/stylecow-plugin-prefixes)
+
 Stylecow plugin to add automatically all vendor prefixes needed
 
 You write:
@@ -31,3 +33,5 @@ And stylecow converts to:
     transition: background-color 2s;
 }
 ```
+
+More demos in [the tests folder](https://github.com/stylecow/stylecow-plugin-prefixes/tree/master/tests/cases)

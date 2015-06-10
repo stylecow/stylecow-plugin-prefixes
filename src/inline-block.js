@@ -12,6 +12,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			if (declaration.has({
 				type: 'Keyword',
+				vendor: false,
 				name: 'inline-block'
 			})) {
 				declaration

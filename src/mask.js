@@ -10,6 +10,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^mask/
 		},
 		fn: function (declaration) {

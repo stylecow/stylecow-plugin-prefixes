@@ -11,6 +11,7 @@ module.exports = function (stylecow) {
 		fn: function (rule) {
 			if (rule.has({
 				type: 'PseudoClass',
+				vendor: false,
 				name: 'fullscreen'
 			})) {
 				var clone = rule.cloneBefore();

@@ -8,6 +8,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'Declaration',
+				vendor: false,
 				name: /^animation/
 			},
 			fn: function (declaration) {
@@ -20,6 +21,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'AtRule',
+				vendor: false,
 				name: 'keyframes'
 			},
 			fn: function (atrule) {
@@ -40,6 +42,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'Declaration',
+				vendor: false,
 				name: /^animation/
 			},
 			fn: function (declaration) {
@@ -52,6 +55,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'AtRule',
+				vendor: false,
 				name: 'keyframes'
 			},
 			fn: function (atrule) {
@@ -75,6 +79,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'Declaration',
+				vendor: false,
 				name: /^animation/
 			},
 			fn: function (declaration) {
@@ -87,6 +92,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'AtRule',
+				vendor: false,
 				name: 'keyframes'
 			},
 			fn: function (atrule) {

@@ -11,6 +11,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			if (declaration.has({
 				type: 'Function',
+				vendor: false,
 				name: 'calc'
 			})) {
 				declaration
@@ -40,6 +41,7 @@ module.exports = function (stylecow) {
 		fn: function (declaration) {
 			if (declaration.has({
 				type: 'Function',
+				vendor: false,
 				name: 'calc'
 			})) {
 				declaration

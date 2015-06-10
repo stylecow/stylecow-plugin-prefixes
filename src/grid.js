@@ -13,6 +13,7 @@ module.exports = function (stylecow) {
 			fn: function (declaration) {
 				if (declaration.has({
 					type: 'Keyword',
+					vendor: false,
 					name: 'grid'
 				})) {
 					declaration
@@ -29,6 +30,7 @@ module.exports = function (stylecow) {
 		stylecow.addTask({
 			filter: {
 				type: 'Declaration',
+				vendor: false,
 				name: /^grid.*$/
 			},
 			fn: function (declaration) {

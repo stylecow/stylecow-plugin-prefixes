@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'AtRule',
+			vendor: false,
 			name: 'document'
 		},
 		fn: function (atrule) {

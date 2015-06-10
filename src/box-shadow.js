@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'box-shadow'
 		},
 		fn: function (declaration) {
@@ -26,6 +27,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: 'box-shadow'
 		},
 		fn: function (declaration) {

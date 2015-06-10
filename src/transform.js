@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^(transform.*|perspective.*|backface-visibility)$/
 		},
 		fn: function (declaration) {
@@ -28,6 +29,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^(transform.*|perspective.*|backface-visibility)$/
 		},
 		fn: function (declaration) {
@@ -45,6 +47,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^transform/
 		},
 		fn: function (declaration) {
@@ -62,6 +65,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^transform/
 		},
 		fn: function (declaration) {

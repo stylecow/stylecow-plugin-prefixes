@@ -8,6 +8,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: ['shape-outside', 'shape-image-threshold', 'shape-margin']
 		},
 		fn: function (declaration) {

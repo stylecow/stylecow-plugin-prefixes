@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^column/
 		},
 		fn: function (declaration) {
@@ -27,6 +28,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^column/
 		},
 		fn: function (declaration) {

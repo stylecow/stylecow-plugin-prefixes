@@ -24,7 +24,7 @@
             {
               "class": "Declaration",
               "name": "box-sizing",
-              "vendor": "webkit",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -41,7 +41,7 @@
             {
               "class": "Declaration",
               "name": "box-sizing",
-              "vendor": "moz",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",

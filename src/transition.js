@@ -7,6 +7,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^transition/
 		},
 		fn: function (declaration) {
@@ -31,6 +32,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^transition/
 		},
 		fn: function (declaration) {
@@ -57,6 +59,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: /^transition/
 		},
 		fn: function (declaration) {
@@ -81,6 +84,7 @@ module.exports = function (stylecow) {
 		},
 		filter: {
 			type: 'Declaration',
+			vendor: false,
 			name: ['transition', 'transition-property']
 		},
 		fn: function (declaration) {

@@ -14,6 +14,7 @@ module.exports = function (stylecow) {
 				.getChild('Selectors')
 				.has({
 					type: 'PseudoElement',
+					vendor: false,
 					name: ['input-placeholder', 'selection']
 				})
 			) {
@@ -56,6 +57,7 @@ module.exports = function (stylecow) {
 				.getChild('Selectors')
 				.has({
 					type: 'PseudoElement',
+					vendor: false,
 					name: 'input-placeholder'
 				})
 			) {
@@ -88,6 +90,7 @@ module.exports = function (stylecow) {
 				.getChild('Selectors')
 				.has({
 					type: 'PseudoElement',
+					vendor: false,
 					name: 'input-placeholder'
 				})
 			) {
