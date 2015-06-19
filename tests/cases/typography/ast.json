@@ -291,7 +291,7 @@
             {
               "class": "Declaration",
               "name": "tab-size",
-              "vendor": "o",
+              "vendor": "moz",
               "children": [
                 {
                   "class": "Value",
@@ -307,7 +307,7 @@
             {
               "class": "Declaration",
               "name": "tab-size",
-              "vendor": "moz",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",

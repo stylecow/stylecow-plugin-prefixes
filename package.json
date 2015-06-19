@@ -1,7 +1,7 @@
 {
   "name": "stylecow-plugin-prefixes",
   "description": "Stylecow plugin to add vendor prefixes automatically.",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "author": "Oscar Otero <oom@oscarotero.com>",
   "homepage": "https://github.com/stylecow/stylecow-plugin-prefixes",
   "bugs": "https://github.com/stylecow/stylecow-plugin-prefixes/issues",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5",
-    "stylecow": "6.*"
+    "stylecow-core": "^1.0.1"
   },
   "license": "MIT"
 }
