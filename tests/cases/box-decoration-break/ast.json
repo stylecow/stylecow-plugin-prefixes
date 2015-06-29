@@ -41,23 +41,6 @@
             {
               "class": "Declaration",
               "name": "box-decoration-break",
-              "vendor": "o",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "clone",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "box-decoration-break",
               "vendor": null,
               "children": [
                 {

@@ -20,6 +20,56 @@
                 },
                 {
                   "class": "PseudoElement",
+                  "name": "input-placeholder",
+                  "vendor": "ms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "blue",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "input"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "PseudoElement",
                   "name": "placeholder",
                   "vendor": "moz"
                 }
@@ -120,57 +170,7 @@
                 },
                 {
                   "class": "PseudoElement",
-                  "name": "input-placeholder",
-                  "vendor": "ms"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "class": "Block",
-          "children": [
-            {
-              "class": "Declaration",
-              "name": "color",
-              "vendor": null,
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "blue",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "Rule",
-      "children": [
-        {
-          "class": "Selectors",
-          "children": [
-            {
-              "class": "Selector",
-              "children": [
-                {
-                  "class": "TypeSelector",
-                  "name": "input"
-                },
-                {
-                  "class": "Combinator",
-                  "name": " "
-                },
-                {
-                  "class": "PseudoElement",
-                  "name": "input-placeholder",
+                  "name": "placeholder",
                   "vendor": null
                 }
               ]

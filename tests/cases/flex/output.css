@@ -1,0 +1,12 @@
+div {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-flex-flow: column wrap;
+	flex-flow: column wrap;
+}
+div > div {
+	-webkit-flex: 1 0 100%;
+	flex: 1 0 100%;
+}

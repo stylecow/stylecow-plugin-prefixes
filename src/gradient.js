@@ -1,94 +1,9 @@
+var caniuse = require('./caniuse');
+
 module.exports = function (stylecow) {
 
-	// adds -moz- vendor prefix
-	stylecow.addTask({
-		forBrowsersLowerThan: {
-			firefox: 10.0
-		},
-		filter: {
-			type: 'Declaration'
-		},
-		fn: function (declaration) {
-			if (declaration.has({
-				type: 'Function',
-				vendor: false,
-				name: 'linear-gradient'
-			})) {
-				declaration
-					.cloneBefore()
-					.getAll({
-						type: 'Function',
-						name: 'linear-gradient'
-					})
-					.forEach(function (fn) {
-						fn.setVendor('moz');
-						fixDirection(fn[0]);
-					});
-			}
-		}
-	});
-
-
-	// adds -o- vendor prefix
-	stylecow.addTask({
-		forBrowsersLowerThan: {
-			opera: 12.1
-		},
-		filter: {
-			type: 'Declaration'
-		},
-		fn: function (declaration) {
-			if (declaration.has({
-				type: 'Function',
-				vendor: false,
-				name: 'linear-gradient'
-			})) {
-				declaration
-					.cloneBefore()
-					.getAll({
-						type: 'Function',
-						name: 'linear-gradient'
-					})
-					.forEach(function (fn) {
-						fn.setVendor('o');
-						fixDirection(fn[0]);
-					});
-			}
-		}
-	});
-
-
-	// adds -webkit- vendor prefix
-	stylecow.addTask({
-		forBrowsersLowerThan: {
-			chrome: 26.0,
-			safari: 6.1,
-			ios: 7.0,
-			android: 4.4
-		},
-		filter: {
-			type: 'Declaration'
-		},
-		fn: function (declaration) {
-			if (declaration.has({
-				type: 'Function',
-				vendor: false,
-				name: 'linear-gradient'
-			})) {
-				declaration
-					.cloneBefore()
-					.getAll({
-						type: 'Function',
-						name: 'linear-gradient'
-					})
-					.forEach(function (fn) {
-						fn.setVendor('webkit');
-						fixDirection(fn[0]);
-					});
-			}
-		}
-	});
-
+	caniuse.forEachVendor('css-repeating-gradients', addGradientVendorPrefix, ['repeating-linear-gradient', 'repeating-radial-gradient']);
+	caniuse.forEachVendor('css-gradients', addGradientVendorPrefix, ['linear-gradient', 'radial-gradient']);
 
 	// adds the old syntax -webkit-gradient
 	stylecow.addTask({
@@ -113,30 +28,32 @@ module.exports = function (stylecow) {
 						name: 'linear-gradient'
 					})
 					.forEach(function (fn) {
+						fixDirection(fn[0]);
+
 						var args = fn.toArray();
 						var newArgs = ['linear'];
 
 						//Calculate the gradient direction
-						var point = 'to bottom';
+						var point = 'top';
 
 						if (/(top|bottom|left|right|deg)/.test(args[0])) {
 							point = args.shift();
 						}
 
 						switch (point) {
-							case 'to bottom':
+							case 'top':
 								newArgs.push('left top', 'left bottom');
 								break;
 
-							case 'to top':
+							case 'bottom':
 								newArgs.push('left bottom', 'left top');
 								break;
 
-							case 'to right':
+							case 'left':
 								newArgs.push('left top', 'right top');
 								break;
 
-							case 'to left':
+							case 'right':
 								newArgs.push('right top', 'left top');
 								break;
 
@@ -171,6 +88,33 @@ module.exports = function (stylecow) {
 			}
 		}
 	});
+
+	function addGradientVendorPrefix (task, name) {
+		stylecow.addTask({
+			forBrowsersLowerThan: task.browsers,
+			filter: {
+				type: 'Declaration'
+			},
+			fn: function (declaration) {
+				if (declaration.has({
+					type: 'Function',
+					vendor: false,
+					name: name
+				})) {
+					declaration
+						.cloneBefore()
+						.getAll({
+							type: 'Function',
+							name: name
+						})
+						.forEach(function (fn) {
+							fixDirection(fn[0]);
+							fn.setVendor(task.vendor);
+						});
+				}
+			}
+		});
+	}
 };
 
 function fixDirection (direction) {

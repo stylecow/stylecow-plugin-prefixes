@@ -223,6 +223,23 @@
             {
               "class": "Declaration",
               "name": "hyphens",
+              "vendor": "ms",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "hyphens",
               "vendor": "moz",
               "children": [
                 {
@@ -241,23 +258,6 @@
               "class": "Declaration",
               "name": "hyphens",
               "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "none",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "hyphens",
-              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",
@@ -339,7 +339,7 @@
             {
               "class": "Declaration",
               "name": "text-size-adjust",
-              "vendor": "webkit",
+              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",
@@ -361,7 +361,7 @@
             {
               "class": "Declaration",
               "name": "text-size-adjust",
-              "vendor": "ms",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",

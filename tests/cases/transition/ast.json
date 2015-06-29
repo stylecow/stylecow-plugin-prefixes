@@ -51,7 +51,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -78,7 +78,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",
@@ -173,23 +173,6 @@
             {
               "class": "Declaration",
               "name": "transition-property",
-              "vendor": "o",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "transform",
-                      "vendor": "o"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "transition-property",
               "vendor": "webkit",
               "children": [
                 {
@@ -199,6 +182,23 @@
                       "class": "Keyword",
                       "name": "transform",
                       "vendor": "webkit"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "transition-property",
+              "vendor": "o",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "transform",
+                      "vendor": "o"
                     }
                   ]
                 }
@@ -263,7 +263,7 @@
             {
               "class": "Declaration",
               "name": "transition-duration",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -285,7 +285,7 @@
             {
               "class": "Declaration",
               "name": "transition-duration",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",
@@ -380,7 +380,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -388,7 +388,7 @@
                     {
                       "class": "Keyword",
                       "name": "transform",
-                      "vendor": "o"
+                      "vendor": "webkit"
                     },
                     {
                       "class": "Unit",
@@ -407,7 +407,7 @@
             {
               "class": "Declaration",
               "name": "transition",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",
@@ -415,7 +415,7 @@
                     {
                       "class": "Keyword",
                       "name": "transform",
-                      "vendor": "webkit"
+                      "vendor": "o"
                     },
                     {
                       "class": "Unit",

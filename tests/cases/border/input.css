@@ -6,8 +6,6 @@ div {
 section {
 	border-start: 2px solid green;
 	border-end-color: blue;
-	border-after: 1px solid;
-	border-before-width: 2px dotted;
 }
 
 article {

@@ -12,7 +12,7 @@
               "children": [
                 {
                   "class": "TypeSelector",
-                  "name": "article"
+                  "name": "div"
                 }
               ]
             }
@@ -23,41 +23,7 @@
           "children": [
             {
               "class": "Declaration",
-              "name": "flow-into",
-              "vendor": "ms",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "article-flow",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "flow-into",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "article-flow",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "flow-into",
+              "name": "display",
               "vendor": null,
               "children": [
                 {
@@ -65,7 +31,102 @@
                   "children": [
                     {
                       "class": "Keyword",
-                      "name": "article-flow",
+                      "name": "flex",
+                      "vendor": "webkit"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "display",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "flex",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "align-items",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "flex-start",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "align-items",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "flex-start",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "flex-flow",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "column",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "wrap",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "flex-flow",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "column",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "wrap",
                       "vendor": null
                     }
                   ]
@@ -86,17 +147,16 @@
               "class": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
-                  "name": "region-1"
-                }
-              ]
-            },
-            {
-              "class": "Selector",
-              "children": [
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
                 {
-                  "class": "IdSelector",
-                  "name": "region-2"
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
                 }
               ]
             }
@@ -107,33 +167,29 @@
           "children": [
             {
               "class": "Declaration",
-              "name": "flow-from",
-              "vendor": "ms",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "article-flow",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "flow-from",
+              "name": "flex",
               "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
-                      "name": "article-flow",
-                      "vendor": null
+                      "class": "Number",
+                      "name": 1
+                    },
+                    {
+                      "class": "Number",
+                      "name": 0
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
                     }
                   ]
                 }
@@ -141,84 +197,29 @@
             },
             {
               "class": "Declaration",
-              "name": "flow-from",
+              "name": "flex",
               "vendor": null,
               "children": [
                 {
                   "class": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
-                      "name": "article-flow",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "region-fragment",
-              "vendor": "ms",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
+                      "class": "Number",
+                      "name": 1
+                    },
                     {
-                      "class": "Keyword",
-                      "name": "break",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "region-fragment",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
+                      "class": "Number",
+                      "name": 0
+                    },
                     {
-                      "class": "Keyword",
-                      "name": "break",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "region-fragment",
-              "vendor": null,
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "break",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "overflow",
-              "vendor": null,
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "visible",
-                      "vendor": null
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
                     }
                   ]
                 }

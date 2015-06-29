@@ -32,6 +32,23 @@
                     {
                       "class": "Keyword",
                       "name": "crisp-edges",
+                      "vendor": "ms"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "image-rendering",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "crisp-edges",
                       "vendor": "moz"
                     }
                   ]
@@ -50,6 +67,23 @@
                       "class": "Keyword",
                       "name": "crisp-edges",
                       "vendor": "webkit"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "image-rendering",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "crisp-edges",
+                      "vendor": "o"
                     }
                   ]
                 }

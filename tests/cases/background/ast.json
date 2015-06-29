@@ -41,7 +41,7 @@
             {
               "class": "Declaration",
               "name": "background-size",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -58,7 +58,7 @@
             {
               "class": "Declaration",
               "name": "background-size",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",
@@ -109,7 +109,7 @@
             {
               "class": "Declaration",
               "name": "background-origin",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -126,7 +126,7 @@
             {
               "class": "Declaration",
               "name": "background-origin",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",
@@ -177,7 +177,7 @@
             {
               "class": "Declaration",
               "name": "background-clip",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -194,7 +194,7 @@
             {
               "class": "Declaration",
               "name": "background-clip",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",

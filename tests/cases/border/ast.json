@@ -180,38 +180,6 @@
             {
               "class": "Declaration",
               "name": "border-start",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Unit",
-                      "name": "px",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 2
-                        }
-                      ]
-                    },
-                    {
-                      "class": "Keyword",
-                      "name": "solid",
-                      "vendor": null
-                    },
-                    {
-                      "class": "Keyword",
-                      "name": "green",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "border-start",
               "vendor": "moz",
               "children": [
                 {
@@ -244,6 +212,38 @@
             {
               "class": "Declaration",
               "name": "border-start",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "solid",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "green",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "border-start",
               "vendor": null,
               "children": [
                 {
@@ -276,23 +276,6 @@
             {
               "class": "Declaration",
               "name": "border-end-color",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "blue",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "border-end-color",
               "vendor": "moz",
               "children": [
                 {
@@ -310,7 +293,7 @@
             {
               "class": "Declaration",
               "name": "border-end-color",
-              "vendor": null,
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -326,106 +309,15 @@
             },
             {
               "class": "Declaration",
-              "name": "border-after",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Unit",
-                      "name": "px",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 1
-                        }
-                      ]
-                    },
-                    {
-                      "class": "Keyword",
-                      "name": "solid",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "border-after",
+              "name": "border-end-color",
               "vendor": null,
               "children": [
                 {
                   "class": "Value",
                   "children": [
                     {
-                      "class": "Unit",
-                      "name": "px",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 1
-                        }
-                      ]
-                    },
-                    {
                       "class": "Keyword",
-                      "name": "solid",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "border-before-width",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Unit",
-                      "name": "px",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 2
-                        }
-                      ]
-                    },
-                    {
-                      "class": "Keyword",
-                      "name": "dotted",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "border-before-width",
-              "vendor": null,
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Unit",
-                      "name": "px",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 2
-                        }
-                      ]
-                    },
-                    {
-                      "class": "Keyword",
-                      "name": "dotted",
+                      "name": "blue",
                       "vendor": null
                     }
                   ]
@@ -495,7 +387,7 @@
             {
               "class": "Declaration",
               "name": "border-image",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -531,7 +423,7 @@
             {
               "class": "Declaration",
               "name": "border-image",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",

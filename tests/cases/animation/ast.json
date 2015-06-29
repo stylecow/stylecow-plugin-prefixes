@@ -98,7 +98,7 @@
     {
       "class": "Keyframes",
       "name": "keyframes",
-      "vendor": "o",
+      "vendor": "webkit",
       "children": [
         {
           "class": "Keyword",
@@ -192,7 +192,7 @@
     {
       "class": "Keyframes",
       "name": "keyframes",
-      "vendor": "webkit",
+      "vendor": "o",
       "children": [
         {
           "class": "Keyword",
@@ -432,7 +432,7 @@
             {
               "class": "Declaration",
               "name": "animation",
-              "vendor": "o",
+              "vendor": "webkit",
               "children": [
                 {
                   "class": "Value",
@@ -464,7 +464,7 @@
             {
               "class": "Declaration",
               "name": "animation",
-              "vendor": "webkit",
+              "vendor": "o",
               "children": [
                 {
                   "class": "Value",

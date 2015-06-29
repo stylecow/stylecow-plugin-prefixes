@@ -1,13 +1,13 @@
+input ::-ms-input-placeholder {
+	color: blue;
+}
 input ::-moz-placeholder {
 	color: blue;
 }
 input ::-webkit-input-placeholder {
 	color: blue;
 }
-input ::-ms-input-placeholder {
-	color: blue;
-}
-input ::input-placeholder {
+input ::placeholder {
 	color: blue;
 }
 div ::-moz-selection {

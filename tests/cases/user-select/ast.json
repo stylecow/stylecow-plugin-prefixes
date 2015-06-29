@@ -24,6 +24,23 @@
             {
               "class": "Declaration",
               "name": "user-select",
+              "vendor": "ms",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "user-select",
               "vendor": "moz",
               "children": [
                 {
@@ -42,23 +59,6 @@
               "class": "Declaration",
               "name": "user-select",
               "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "none",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "user-select",
-              "vendor": "ms",
               "children": [
                 {
                   "class": "Value",

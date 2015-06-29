@@ -119,7 +119,7 @@
                     {
                       "class": "Function",
                       "name": "linear-gradient",
-                      "vendor": "o",
+                      "vendor": "webkit",
                       "children": [
                         {
                           "class": "Value",
@@ -206,7 +206,7 @@
                     {
                       "class": "Function",
                       "name": "linear-gradient",
-                      "vendor": "webkit",
+                      "vendor": "o",
                       "children": [
                         {
                           "class": "Value",

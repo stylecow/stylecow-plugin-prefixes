@@ -1,10 +1,13 @@
 img {
 	-ms-scroll-snap-coordinate: 50% 50%;
+	-webkit-scroll-snap-coordinate: 50% 50%;
 	scroll-snap-coordinate: 50% 50%;
 }
 .photoGallery {
 	-ms-scroll-snap-destination: 50% 50%;
+	-webkit-scroll-snap-destination: 50% 50%;
 	scroll-snap-destination: 50% 50%;
 	-ms-scroll-snap-type: mandatory;
+	-webkit-scroll-snap-type: mandatory;
 	scroll-snap-type: mandatory;
 }
