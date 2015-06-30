@@ -65,7 +65,7 @@ function getTaskInfo (featName, strict) {
 							}
 						}
 
-						return s ? [browser, s] : null;
+						return (s === null) ? null : [browser, s];
 					})
 					.filter(function (val) {
 						return val !== null;
@@ -92,11 +92,11 @@ function getTaskInfo (featName, strict) {
 }
 
 function read (featName) {
-	return require('../node_modules/caniuse-db/features-json/' + featName + '.json');
+	return require('./node_modules/caniuse-db/features-json/' + featName + '.json');
 }
 
 function getMinSupportFromStat (stats, browser, vendor, strict) {
-	var vendored = null;
+	var minVersion = null;
 
 	Object.keys(stats)
 		.map(function (val) {
@@ -118,7 +118,7 @@ function getMinSupportFromStat (stats, browser, vendor, strict) {
 				}
 			}
 
-			if (typeof vendored === 'number') {
+			if (typeof minVersion === 'number') {
 				return;
 			}
 
@@ -126,12 +126,12 @@ function getMinSupportFromStat (stats, browser, vendor, strict) {
 
 			if (info[0] === 'y' || (!strict && info[0] === 'a')) {
 				if (info[1] === 'x') {
-					vendored = true;
-				} else if (vendored) {
-					vendored = version.version;
+					minVersion = false;
+				} else if (minVersion === false) {
+					minVersion = version.version;
 				}
 			}
 		});
 
-	return vendored;
+	return minVersion;
 }

@@ -1,4 +1,4 @@
-var caniuse = require('./src/caniuse');
+var caniuse = require('./caniuse');
 
 module.exports = function (stylecow) {
 
@@ -24,6 +24,7 @@ module.exports = function (stylecow) {
 	caniuse.forEachVendor('css-deviceadaptation', addAtRuleVendor, 'viewport');
 	caniuse.forEachVendor('css-exclusions', addDeclarationVendor, ['wrap-flow', 'wrap-through']);
 	caniuse.forEachVendor('css-filters', addDeclarationVendor, 'filter');
+	caniuse.forEachVendor('css-gradients', addGradientVendorPrefix, ['linear-gradient', 'radial-gradient']);
 	caniuse.forEachVendor('css-grid', addDeclarationChildVendor, 'display', 'Keyword', 'grid');
 	caniuse.forEachVendor('css-grid', addDeclarationVendor, /^grid.*$/);
 	caniuse.forEachVendor('css-hyphens', addDeclarationVendor, 'hyphens');
@@ -40,6 +41,7 @@ module.exports = function (stylecow) {
 	});
 	caniuse.forEachVendor('css-regions', addDeclarationVendor, /^flow/);
 	caniuse.forEachVendor('css-regions', addDeclarationVendor, 'region-fragment');
+	caniuse.forEachVendor('css-repeating-gradients', addGradientVendorPrefix, ['repeating-linear-gradient', 'repeating-radial-gradient']);
 	caniuse.forEachVendor('css-resize', addDeclarationVendor, 'resize');
 	caniuse.forEachVendor('css-selection', addSelectorChildVendor, 'PseudoElement', 'selection');
 	caniuse.forEachVendor('css-shapes', addDeclarationVendor, ['shape-outside', 'shape-image-threshold', 'shape-margin']);
@@ -82,11 +84,80 @@ module.exports = function (stylecow) {
 	caniuse.forEachVendor('user-select-none', addDeclarationVendor, 'user-select');
 
 
-	// SPECIAL CASES:
+	// TRANSITION (special case)
 
-	require('./src/gradient')(stylecow);
-	require('./src/document')(stylecow);
-	require('./src/transition')(stylecow);
+	//add vendor prefix to declaration and transition-property
+	caniuse.forEachVendor('css-transitions', function (task) {
+		stylecow.addTask({
+			forBrowsersLowerThan: task.browsers,
+			filter: {
+				type: 'Declaration',
+				vendor: false,
+				name: /^transition/
+			},
+			fn: function (declaration) {
+				declaration
+					.cloneBefore()
+					.setVendor(task.vendor)
+					.getAll({
+						type: 'Keyword',
+						name: ['transform', 'transform-origin']
+					})
+					.forEach(function (keyword) {
+						keyword.setVendor(task.vendor);
+					});
+			}
+		});
+	});
+
+	// Adds -ms- vendor prefix to transition-property: transform|transform-origin
+	stylecow.addTask({
+		forBrowsersLowerThan: caniuse.getVendorMinSupport('transforms2d', 'ms'),
+		filter: {
+			type: 'Declaration',
+			vendor: false,
+			name: ['transition', 'transition-property']
+		},
+		fn: function (declaration) {
+			if (declaration.has({
+					type: 'Keyword',
+					name: ['transform', 'transform-origin']
+			})) {
+				declaration
+					.cloneBefore()
+					.getAll({
+						type: 'Keyword',
+						name: ['transform', 'transform-origin']
+					})
+					.forEach(function (keyword) {
+						keyword.setVendor('ms');
+					});
+			}
+		}
+	});
+
+	//@document (Other special case not included in caniuse)
+
+	//Adds -moz- vendor prefix
+	stylecow.addTask({
+		forBrowsersLowerThan: {
+			firefox: false
+		},
+		filter: {
+			type: 'AtRule',
+			vendor: false,
+			name: 'document'
+		},
+		fn: function (atrule) {
+			atrule
+				.cloneBefore()
+				.setVendor('moz')
+				.normalizeVendors();
+		}
+	});
+
+
+	// HELPERS FUNCTIONS
 
 	function addFunctionVendor (task, name) {
 		stylecow.addTask({
@@ -209,5 +280,56 @@ module.exports = function (stylecow) {
 		}
 		
 		element.setVendor(vendor);
+	}
+
+	function addGradientVendorPrefix (task, name) {
+		stylecow.addTask({
+			forBrowsersLowerThan: task.browsers,
+			filter: {
+				type: 'Declaration'
+			},
+			fn: function (declaration) {
+				if (declaration.has({
+					type: 'Function',
+					vendor: false,
+					name: name
+				})) {
+					declaration
+						.cloneBefore()
+						.getAll({
+							type: 'Function',
+							name: name
+						})
+						.forEach(function (fn) {
+							var direction = fn[0];
+
+							//fix "to x" syntax
+							if (direction[0].name === 'to') {
+								direction.shift();
+
+								switch (direction[0].name) {
+									case 'top':
+										direction[0].name = 'bottom';
+										break;
+
+									case 'bottom':
+										direction[0].name = 'top';
+										break;
+
+									case 'left':
+										direction[0].name = 'right';
+										break;
+
+									case 'right':
+										direction[0].name = 'left';
+										break;
+								}
+							}
+
+							fn.setVendor(task.vendor);
+						});
+				}
+			}
+		});
 	}
 };

@@ -1,6 +1,6 @@
 //Check the caniuse database to discover new css features
 var fs = require('fs');
-var caniuse = require(__dirname + '/../src/caniuse');
+var caniuse = require(__dirname + '/../caniuse');
 var features = fs.readdirSync(__dirname + '/../node_modules/caniuse-db/features-json');
 
 var implemented = [
@@ -24,7 +24,7 @@ var implemented = [
 	'css-image-set',
 	'css-logical-props',
 	'css-masks',
-	'css-media-resolution', //implemented in stylecow-plugin-resolution
+	'css-media-resolution', //implemented in stylecow-plugin-fixes
 	'css-placeholder',
 	'css-reflections', //not implemented
 	'css-regions',

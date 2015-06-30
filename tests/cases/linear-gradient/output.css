@@ -2,6 +2,5 @@ div {
 	background: -moz-linear-gradient(left, rgba(0, 20, 10, 0.5), blue);
 	background: -webkit-linear-gradient(left, rgba(0, 20, 10, 0.5), blue);
 	background: -o-linear-gradient(left, rgba(0, 20, 10, 0.5), blue);
-	background: -webkit-gradient(linear, left top, right top, from(rgba(0, 20, 10, 0.5)), to(blue));
 	background: linear-gradient(to right, rgba(0, 20, 10, 0.5), blue);
 }

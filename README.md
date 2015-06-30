@@ -3,7 +3,7 @@ stylecow plugin prefixes
 
 [![Build Status](https://travis-ci.org/stylecow/stylecow-plugin-prefixes.svg)](https://travis-ci.org/stylecow/stylecow-plugin-prefixes)
 
-Stylecow plugin to add automatically all vendor prefixes needed
+Stylecow plugin to add automatically all vendor prefixes needed. It uses the [caniuse](http://caniuse.com/) database to get the data about the browsers support.
 
 You write:
 
