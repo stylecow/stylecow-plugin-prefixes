@@ -92,7 +92,109 @@
             {
               "type": "Declaration",
               "name": "background-origin",
+              "vendor": "moz",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "border-box",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-origin",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "border-box",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-origin",
+              "vendor": "o",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "border-box",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-origin",
               "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "border-box",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-clip",
+              "vendor": "moz",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "border-box",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-clip",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "border-box",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-clip",
+              "vendor": "o",
               "children": [
                 {
                   "type": "Value",

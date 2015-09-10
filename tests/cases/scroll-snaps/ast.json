@@ -240,6 +240,40 @@
             {
               "type": "Declaration",
               "name": "scroll-snap-type",
+              "vendor": "ms",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "mandatory",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "scroll-snap-type",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "mandatory",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "scroll-snap-type",
               "vendor": null,
               "children": [
                 {

@@ -312,6 +312,28 @@
             {
               "type": "Declaration",
               "name": "shape-margin",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 10
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "shape-margin",
               "vendor": null,
               "children": [
                 {

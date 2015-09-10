@@ -109,6 +109,40 @@
             {
               "type": "Declaration",
               "name": "text-decoration-style",
+              "vendor": "moz",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "dotted",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "text-decoration-style",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "dotted",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "text-decoration-style",
               "vendor": null,
               "children": [
                 {

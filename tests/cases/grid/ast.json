@@ -156,6 +156,60 @@
             {
               "type": "Declaration",
               "name": "grid-template-rows",
+              "vendor": "ms",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "auto",
+                      "vendor": null
+                    },
+                    {
+                      "type": "Function",
+                      "name": "minmax",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Keyword",
+                              "name": "min-content",
+                              "vendor": null
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Unit",
+                              "name": "fr",
+                              "children": [
+                                {
+                                  "type": "Number",
+                                  "name": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Keyword",
+                      "name": "auto",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "grid-template-rows",
               "vendor": null,
               "children": [
                 {
@@ -258,6 +312,22 @@
                     {
                       "type": "Number",
                       "name": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "grid-row",
+              "vendor": "ms",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Number",
+                      "name": 2
                     }
                   ]
                 }

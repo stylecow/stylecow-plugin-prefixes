@@ -7,12 +7,12 @@ div {
 	border-top-left-radius: 10px;
 }
 section {
-	-moz-border-start: 2px solid green;
-	-webkit-border-start: 2px solid green;
-	border-start: 2px solid green;
-	-moz-border-end-color: blue;
-	-webkit-border-end-color: blue;
-	border-end-color: blue;
+	-moz-border-block-start: 2px solid green;
+	-webkit-border-block-start: 2px solid green;
+	border-block-start: 2px solid green;
+	-moz-border-inline-end: 1px blue;
+	-webkit-border-inline-end: 1px blue;
+	border-inline-end: 1px blue;
 }
 article {
 	-moz-border-image: url("/images/border.png") 30 30 repeat;

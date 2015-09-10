@@ -58,6 +58,38 @@
             {
               "type": "Declaration",
               "name": "object-position",
+              "vendor": "o",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 20
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 10
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "object-position",
               "vendor": null,
               "children": [
                 {

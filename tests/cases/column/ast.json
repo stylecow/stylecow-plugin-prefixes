@@ -87,6 +87,70 @@
             {
               "type": "Declaration",
               "name": "column-rule",
+              "vendor": "moz",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "solid",
+                      "vendor": null
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Keyword",
+                      "name": "red",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "column-rule",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "solid",
+                      "vendor": null
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Keyword",
+                      "name": "red",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "column-rule",
               "vendor": null,
               "children": [
                 {
@@ -111,6 +175,50 @@
                       "type": "Keyword",
                       "name": "red",
                       "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "column-gap",
+              "vendor": "moz",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 10
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "column-gap",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 10
+                        }
+                      ]
                     }
                   ]
                 }

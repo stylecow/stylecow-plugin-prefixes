@@ -92,6 +92,28 @@
             {
               "type": "Declaration",
               "name": "flex-flow",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "column",
+                      "vendor": null
+                    },
+                    {
+                      "type": "Keyword",
+                      "name": "wrap",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "flex-flow",
               "vendor": null,
               "children": [
                 {

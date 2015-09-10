@@ -4,8 +4,8 @@ div {
 }
 
 section {
-	border-start: 2px solid green;
-	border-end-color: blue;
+	border-block-start: 2px solid green;
+	border-inline-end: 1px blue;
 }
 
 article {

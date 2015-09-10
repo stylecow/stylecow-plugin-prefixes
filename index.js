@@ -4,9 +4,28 @@ var caniuse = require('./caniuse');
 
 module.exports = function (tasks) {
 
-    caniuse.forEachVendor('background-img-opts', addDeclarationVendor, ['background-size', 'background-clip', 'background-origin']);
-    caniuse.forEachVendor('border-image', addDeclarationVendor, /^border-image/);
-    caniuse.forEachVendor('border-radius', addDeclarationVendor, /^border-.*radius$/, {
+    caniuse.forEachVendor('background-img-opts', addDeclarationVendor, [
+        'background-size',
+        'background-clip',
+        'background-origin'
+    ]);
+
+    caniuse.forEachVendor('border-image', addDeclarationVendor, [
+        'border-image',
+        'border-image-source',
+        'border-image-width',
+        'border-image-slice',
+        'border-image-repeat',
+        'border-image-outset'
+    ]);
+
+    caniuse.forEachVendor('border-radius', addDeclarationVendor, [
+        'border-radius',
+        'border-top-left-radius',
+        'border-top-right-radius',
+        'border-bottom-left-radius',
+        'border-bottom-right-radius'
+    ], {
         'moz': {
             'border-top-left-radius': '-moz-border-radius-topleft',
             'border-top-right-radius': '-moz-border-radius-topright',
@@ -17,7 +36,18 @@ module.exports = function (tasks) {
 
     caniuse.forEachVendor('calc', addFunctionVendor, 'calc');
     caniuse.forEachVendor('css-animation', addAtRuleVendor, 'keyframes');
-    caniuse.forEachVendor('css-animation', addDeclarationVendor, /^animation/);
+    caniuse.forEachVendor('css-animation', addDeclarationVendor, [
+        'animation',
+        'animation-name',
+        'animation-duration',
+        'animation-timing-function',
+        'animation-delay',
+        'animation-iteration-count',
+        'animation-direction',
+        'animation-fill-mode',
+        'animation-play-state',
+    ]);
+
     caniuse.forEachVendor('css-appearance', addDeclarationVendor, 'appearance');
     caniuse.forEachVendor('css-boxdecorationbreak', addDeclarationVendor, 'box-decoration-break');
     caniuse.forEachVendor('css-boxshadow', addDeclarationVendor, 'box-shadow');
@@ -28,11 +58,83 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css-filters', addDeclarationVendor, 'filter');
     caniuse.forEachVendor('css-gradients', addGradientVendorPrefix, ['linear-gradient', 'radial-gradient']);
     caniuse.forEachVendor('css-grid', addDeclarationChildVendor, 'display', 'Keyword', 'grid');
-    caniuse.forEachVendor('css-grid', addDeclarationVendor, /^grid.*$/);
+    caniuse.forEachVendor('css-grid', addDeclarationVendor, [
+        'grid',
+        'grid-template',
+        'grid-template-columns',
+        'grid-template-rows',
+        'grid-template-areas',
+        'grid-auto-columns',
+        'grid-auto-rows',
+        'grid-auto-flow',
+        'grid-row-start',
+        'grid-column-start',
+        'grid-row-end',
+        'grid-column-end',
+        'grid-row',
+        'grid-column',
+        'grid-area',
+        'row-gap',
+        'grid-gap',
+    ]);
     caniuse.forEachVendor('css-hyphens', addDeclarationVendor, 'hyphens');
     caniuse.forEachVendor('css-image-set', addDeclarationChildVendor, ['background', 'background-image'], 'Function', 'image-set');
-    caniuse.forEachVendor('css-logical-props', addDeclarationVendor, /^(margin|border|padding)-.*(start|end)/);
-    caniuse.forEachVendor('css-masks', addDeclarationVendor, /^mask/);
+    caniuse.forEachVendor('css-logical-props', addDeclarationVendor, [
+        'block-size',
+        'inline-size',
+        'min-block-size',
+        'min-inline-size',
+        'max-block-size',
+        'max-inline-size',
+        'margin-block-start',
+        'margin-block-end',
+        'margin-inline-start',
+        'margin-inline-end',
+        'offset-block-start',
+        'offset-block-end',
+        'offset-inline-start',
+        'offset-inline-end',
+        'padding-block-start',
+        'padding-block-end',
+        'padding-inline-start',
+        'padding-inline-end',
+        'border-block-start-width',
+        'border-block-end-width',
+        'border-inline-start-width',
+        'border-inline-end-width',
+        'border-block-start-style',
+        'border-block-end-style',
+        'border-inline-start-style',
+        'border-inline-end-style',
+        'border-block-start-color',
+        'border-block-end-color',
+        'border-inline-start-color',
+        'border-inline-end-color',
+        'border-block-start',
+        'border-block-end',
+        'border-inline-start',
+        'border-inline-end',
+        'background-image-background',
+        'border-image-transform',
+    ]);
+    caniuse.forEachVendor('css-masks', addDeclarationVendor, [
+        'mask',
+        'mask-image',
+        'mask-mode',
+        'mask-repeat',
+        'mask-position',
+        'mask-clip',
+        'mask-origin',
+        'mask-size',
+        'mask-composite',
+        'mask-border-source',
+        'mask-border-slice',
+        'mask-border-width',
+        'mask-border-outset',
+        'mask-border-repeat',
+        'mask-border',
+        'mask-type',
+    ]);
     caniuse.forEachVendor('css-placeholder', addSelectorChildVendor, 'PseudoElement', 'placeholder', {
         'webkit': {
             'placeholder': '-webkit-input-placeholder'
@@ -41,13 +143,25 @@ module.exports = function (tasks) {
             'placeholder': '-ms-input-placeholder'
         }
     });
-    caniuse.forEachVendor('css-regions', addDeclarationVendor, /^flow/);
-    caniuse.forEachVendor('css-regions', addDeclarationVendor, 'region-fragment');
+    caniuse.forEachVendor('css-regions', addDeclarationVendor, [
+        'flow-into',
+        'flow-from',
+        'break-before',
+        'break-after',
+        'break-inside',
+        'region-fragment',
+    ]);
     caniuse.forEachVendor('css-repeating-gradients', addGradientVendorPrefix, ['repeating-linear-gradient', 'repeating-radial-gradient']);
     caniuse.forEachVendor('css-resize', addDeclarationVendor, 'resize');
     caniuse.forEachVendor('css-selection', addSelectorChildVendor, 'PseudoElement', 'selection');
     caniuse.forEachVendor('css-shapes', addDeclarationVendor, ['shape-outside', 'shape-image-threshold', 'shape-margin']);
-    caniuse.forEachVendor('css-snappoints', addDeclarationVendor, /^scroll-snap-.*/);
+    caniuse.forEachVendor('css-snappoints', addDeclarationVendor, [
+        'scroll-snap-type',
+        'scroll-snap-points-y',
+        'scroll-snap-points-x',
+        'scroll-snap-destination',
+        'scroll-snap-coordinate',
+    ]);
     caniuse.forEachVendor('css-sticky', addDeclarationChildVendor, 'position', 'Keyword', 'sticky');
     caniuse.forEachVendor('css-text-align-last', addDeclarationVendor, 'text-align-last');
     caniuse.forEachVendor('css-touch-action', addDeclarationVendor, 'touch-action');
@@ -55,7 +169,20 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css3-cursors-newer', addDeclarationChildVendor, 'cursor', 'Keyword', ['zoom-in', 'zoom-out', 'grab', 'grabbing']);
     caniuse.forEachVendor('css3-tabsize', addDeclarationVendor, 'tab-size');
     caniuse.forEachVendor('flexbox', true, addDeclarationChildVendor, 'display', 'Keyword', ['flex', 'inline-flex']);
-    caniuse.forEachVendor('flexbox', true, addDeclarationVendor, /^(flex.*|align.*|justify-content|order)$/);
+    caniuse.forEachVendor('flexbox', true, addDeclarationVendor, [
+        'flex',
+        'flex-direction',
+        'flex-wrap',
+        'flex-flow',
+        'order',
+        'flex-grow',
+        'flex-shrink',
+        'flex-basis',
+        'justify-content',
+        'align-items',
+        'align-self',
+        'align-content',
+    ]);
     caniuse.forEachVendor('font-feature', addDeclarationVendor, 'font-feature-settings');
     caniuse.forEachVendor('font-feature', addDeclarationVendor, ['font-variant-ligatures', 'font-variant-caps', 'font-variant-east-asian', 'font-variant-alternates', 'font-variant-numeric']);
     caniuse.forEachVendor('font-kerning', addDeclarationVendor, 'font-kerning');
@@ -75,14 +202,36 @@ module.exports = function (tasks) {
                 'fill-available': '-moz-available'
             }
         });
-    caniuse.forEachVendor('multicolumn', addDeclarationVendor, /^column/);
+    caniuse.forEachVendor('multicolumn', addDeclarationVendor, [
+        'break-after',
+        'break-before',
+        'break-inside',
+        'column-count',
+        'column-fill',
+        'column-gap',
+        'column-rule',
+        'column-rule-color',
+        'column-rule-style',
+        'column-rule-width',
+        'columns',
+        'column-span',
+        'column-width',
+    ]);
     caniuse.forEachVendor('object-fit', addDeclarationVendor, ['object-fit', 'object-position']);
     caniuse.forEachVendor('text-decoration', addDeclarationVendor, ['text-decoration-line', 'text-decoration-color', 'text-decoration-style']);
     caniuse.forEachVendor('text-emphasis', addDeclarationVendor, ['text-emphasis', 'text-emphasis-style', 'text-emphasis-color', 'text-emphasis-position']);
     caniuse.forEachVendor('text-overflow', addDeclarationVendor, 'text-overflow');
     caniuse.forEachVendor('text-size-adjust', addDeclarationVendor, 'text-size-adjust');
-    caniuse.forEachVendor('transforms2d', addDeclarationVendor, /^transform.*$/);
-    caniuse.forEachVendor('transforms3d', addDeclarationVendor, /^(perspective.*|backface-visibility)$/);
+    caniuse.forEachVendor('transforms2d', addDeclarationVendor, [
+        'transform',
+        'transform-origin',
+        'transform-style',
+    ]);
+    caniuse.forEachVendor('transforms3d', addDeclarationVendor, [
+        'perspective',
+        'perspective-origin',
+        'backface-visibility',
+    ]);
     caniuse.forEachVendor('user-select-none', addDeclarationVendor, 'user-select');
 
 
@@ -95,7 +244,13 @@ module.exports = function (tasks) {
             filter: {
                 type: 'Declaration',
                 vendor: false,
-                name: /^transition/
+                name: [
+                    'transition',
+                    'transition-property',
+                    'transition-duration',
+                    'transition-timing-function',
+                    'transition-delay',
+                ]
             },
             fn: function (declaration) {
                 declaration
@@ -180,6 +335,10 @@ module.exports = function (tasks) {
     }
 
     function addDeclarationVendor (task, name, specialCases) {
+        if (name instanceof Array) {
+            return name.forEach(name => addDeclarationVendor(task, name, specialCases));
+        }
+
         //Remove unused vendors
         tasks.addTask({
             forBrowsersUpperOrEqualTo: task.browsers,
