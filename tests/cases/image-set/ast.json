@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -19,34 +19,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-image",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "image-set",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "String",
+                              "type": "String",
                               "name": "foo.png"
                             },
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "x",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
@@ -54,18 +54,18 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "String",
+                              "type": "String",
                               "name": "foo-2x.png"
                             },
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "x",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 2
                                 }
                               ]
@@ -73,18 +73,18 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "String",
+                              "type": "String",
                               "name": "foo-print.png"
                             },
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "dpi",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 600
                                 }
                               ]
@@ -98,31 +98,31 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-image",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "image-set",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "String",
+                              "type": "String",
                               "name": "foo.png"
                             },
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "x",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
@@ -130,18 +130,18 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "String",
+                              "type": "String",
                               "name": "foo-2x.png"
                             },
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "x",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 2
                                 }
                               ]
@@ -149,18 +149,18 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "String",
+                              "type": "String",
                               "name": "foo-print.png"
                             },
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "dpi",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 600
                                 }
                               ]

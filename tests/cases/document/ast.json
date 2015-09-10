@@ -1,54 +1,54 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Document",
+      "type": "AtRule",
       "name": "document",
       "vendor": "moz",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "vendor": null,
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "http://www.w3.org/"
             }
           ]
         },
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url-prefix",
           "vendor": null,
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "http://www.w3.org/Style/"
             }
           ]
         },
         {
-          "class": "Function",
+          "type": "Function",
           "name": "domain",
           "vendor": null,
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "mozilla.org"
             }
           ]
         },
         {
-          "class": "Function",
+          "type": "Function",
           "name": "regexp",
           "vendor": null,
           "children": [
             {
-              "class": "Value",
+              "type": "Value",
               "children": [
                 {
-                  "class": "String",
+                  "type": "String",
                   "name": "https:.*"
                 }
               ]
@@ -56,19 +56,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -76,18 +76,18 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "purple",
                               "vendor": null
                             }
@@ -96,15 +96,15 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "background",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "yellow",
                               "vendor": null
                             }
@@ -121,50 +121,50 @@
       ]
     },
     {
-      "class": "Document",
+      "type": "AtRule",
       "name": "document",
       "vendor": null,
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "http://www.w3.org/"
             }
           ]
         },
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url-prefix",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "http://www.w3.org/Style/"
             }
           ]
         },
         {
-          "class": "Function",
+          "type": "Function",
           "name": "domain",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "mozilla.org"
             }
           ]
         },
         {
-          "class": "Function",
+          "type": "Function",
           "name": "regexp",
           "vendor": null,
           "children": [
             {
-              "class": "Value",
+              "type": "Value",
               "children": [
                 {
-                  "class": "String",
+                  "type": "String",
                   "name": "https:.*"
                 }
               ]
@@ -172,19 +172,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -192,18 +192,18 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "purple",
                               "vendor": null
                             }
@@ -212,15 +212,15 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "background",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "yellow",
                               "vendor": null
                             }

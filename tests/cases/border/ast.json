@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -19,22 +19,22 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-radius",
               "vendor": "moz",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 5
                         }
                       ]
@@ -44,19 +44,19 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-radius",
               "vendor": "webkit",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 5
                         }
                       ]
@@ -66,19 +66,19 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-radius",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 5
                         }
                       ]
@@ -88,63 +88,19 @@
               ]
             },
             {
-              "class": "Declaration",
-              "name": "border-radius-topleft",
-              "vendor": "moz",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Unit",
-                      "name": "px",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 10
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "border-top-left-radius",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Unit",
-                      "name": "px",
-                      "children": [
-                        {
-                          "class": "Number",
-                          "name": 10
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top-left-radius",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 10
                         }
                       ]
@@ -158,16 +114,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "section"
                 }
               ]
@@ -175,33 +131,33 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-start",
               "vendor": "moz",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "solid",
                       "vendor": null
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "green",
                       "vendor": null
                     }
@@ -210,30 +166,30 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-start",
               "vendor": "webkit",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "solid",
                       "vendor": null
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "green",
                       "vendor": null
                     }
@@ -242,30 +198,30 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-start",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "solid",
                       "vendor": null
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "green",
                       "vendor": null
                     }
@@ -274,49 +230,15 @@
               ]
             },
             {
-              "class": "Declaration",
-              "name": "border-end-color",
-              "vendor": "moz",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "blue",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
-              "name": "border-end-color",
-              "vendor": "webkit",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "blue",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-end-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "blue",
                       "vendor": null
                     }
@@ -329,16 +251,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "article"
                 }
               ]
@@ -346,37 +268,37 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-image",
               "vendor": "moz",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "url",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "String",
+                          "type": "String",
                           "name": "/images/border.png"
                         }
                       ]
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "repeat",
                       "vendor": null
                     }
@@ -385,34 +307,34 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-image",
               "vendor": "webkit",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "url",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "String",
+                          "type": "String",
                           "name": "/images/border.png"
                         }
                       ]
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "repeat",
                       "vendor": null
                     }
@@ -421,34 +343,34 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-image",
               "vendor": "o",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "url",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "String",
+                          "type": "String",
                           "name": "/images/border.png"
                         }
                       ]
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "repeat",
                       "vendor": null
                     }
@@ -457,33 +379,33 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-image",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "url",
                       "children": [
                         {
-                          "class": "String",
+                          "type": "String",
                           "name": "/images/border.png"
                         }
                       ]
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 30
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "repeat",
                       "vendor": null
                     }

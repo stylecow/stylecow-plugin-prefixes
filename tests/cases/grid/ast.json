@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -19,18 +19,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "display",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "grid",
                       "vendor": "ms"
                     }
@@ -39,15 +39,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "display",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "grid",
                       "vendor": null
                     }
@@ -56,42 +56,42 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "grid-template-columns",
               "vendor": "ms",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     },
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "minmax",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "min-content",
                               "vendor": null
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "fr",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
@@ -105,42 +105,42 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "grid-template-columns",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     },
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "minmax",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "min-content",
                               "vendor": null
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "fr",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
@@ -154,96 +154,42 @@
               ]
             },
             {
-              "class": "Declaration",
-              "name": "grid-template-rows",
-              "vendor": "ms",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Keyword",
-                      "name": "auto",
-                      "vendor": null
-                    },
-                    {
-                      "class": "Function",
-                      "name": "minmax",
-                      "vendor": null,
-                      "children": [
-                        {
-                          "class": "Value",
-                          "children": [
-                            {
-                              "class": "Keyword",
-                              "name": "min-content",
-                              "vendor": null
-                            }
-                          ]
-                        },
-                        {
-                          "class": "Value",
-                          "children": [
-                            {
-                              "class": "Unit",
-                              "name": "fr",
-                              "children": [
-                                {
-                                  "class": "Number",
-                                  "name": 1
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "class": "Keyword",
-                      "name": "auto",
-                      "vendor": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "grid-template-rows",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     },
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "minmax",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "min-content",
                               "vendor": null
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "fr",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
@@ -253,7 +199,7 @@
                       ]
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -266,16 +212,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -283,18 +229,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "grid-column",
               "vendor": "ms",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 1
                     }
                   ]
@@ -302,15 +248,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "grid-column",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 1
                     }
                   ]
@@ -318,31 +264,15 @@
               ]
             },
             {
-              "class": "Declaration",
-              "name": "grid-row",
-              "vendor": "ms",
-              "children": [
-                {
-                  "class": "Value",
-                  "children": [
-                    {
-                      "class": "Number",
-                      "name": 2
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "grid-row",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 2
                     }
                   ]

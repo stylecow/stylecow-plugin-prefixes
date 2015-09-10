@@ -1,31 +1,31 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Keyframes",
+      "type": "AtRule",
       "name": "keyframes",
       "vendor": "moz",
       "children": [
         {
-          "class": "Keyword",
+          "type": "Keyword",
           "name": "transform",
           "vendor": null
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 0
                         }
                       ]
@@ -33,30 +33,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "moz",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -66,24 +66,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -95,27 +95,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -125,24 +125,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -158,17 +158,17 @@
               ]
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 100
                         }
                       ]
@@ -176,30 +176,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "moz",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -209,24 +209,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -238,27 +238,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -268,24 +268,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -305,30 +305,30 @@
       ]
     },
     {
-      "class": "Keyframes",
+      "type": "AtRule",
       "name": "keyframes",
       "vendor": "webkit",
       "children": [
         {
-          "class": "Keyword",
+          "type": "Keyword",
           "name": "transform",
           "vendor": null
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 0
                         }
                       ]
@@ -336,30 +336,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -369,24 +369,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -398,27 +398,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -428,24 +428,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -461,17 +461,17 @@
               ]
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 100
                         }
                       ]
@@ -479,30 +479,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -512,24 +512,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -541,27 +541,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -571,24 +571,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -608,30 +608,30 @@
       ]
     },
     {
-      "class": "Keyframes",
+      "type": "AtRule",
       "name": "keyframes",
       "vendor": "o",
       "children": [
         {
-          "class": "Keyword",
+          "type": "Keyword",
           "name": "transform",
           "vendor": null
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 0
                         }
                       ]
@@ -639,30 +639,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "o",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -672,24 +672,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -701,27 +701,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -731,24 +731,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -764,17 +764,17 @@
               ]
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 100
                         }
                       ]
@@ -782,30 +782,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "o",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -815,24 +815,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -844,27 +844,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -874,24 +874,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -911,30 +911,30 @@
       ]
     },
     {
-      "class": "Keyframes",
+      "type": "AtRule",
       "name": "keyframes",
       "vendor": null,
       "children": [
         {
-          "class": "Keyword",
+          "type": "Keyword",
           "name": "transform",
           "vendor": null
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 0
                         }
                       ]
@@ -942,30 +942,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "ms",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -975,24 +975,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -1004,27 +1004,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "moz",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -1034,24 +1034,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -1063,27 +1063,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -1093,24 +1093,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -1122,27 +1122,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "o",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -1152,24 +1152,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -1181,27 +1181,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 45
                                         }
                                       ]
@@ -1211,24 +1211,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1
                                     }
                                   ]
@@ -1244,17 +1244,17 @@
               ]
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 100
                         }
                       ]
@@ -1262,30 +1262,30 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "ms",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -1295,24 +1295,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -1324,27 +1324,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "moz",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -1354,24 +1354,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -1383,27 +1383,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -1413,24 +1413,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -1442,27 +1442,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": "o",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -1472,24 +1472,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -1501,27 +1501,27 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "transform",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rotate",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "deg",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": -45
                                         }
                                       ]
@@ -1531,24 +1531,24 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "scale",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     }
                                   ]
@@ -1568,24 +1568,24 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": " "
                 },
                 {
-                  "class": "PseudoElement",
+                  "type": "PseudoElement",
                   "name": "selection",
                   "vendor": "moz"
                 }
@@ -1594,27 +1594,27 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": "moz",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "all",
                       "vendor": null
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
@@ -1624,24 +1624,24 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "all",
                       "vendor": null
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
@@ -1655,24 +1655,24 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": " "
                 },
                 {
-                  "class": "PseudoElement",
+                  "type": "PseudoElement",
                   "name": "selection",
                   "vendor": null
                 }
@@ -1681,27 +1681,27 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": "moz",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "all",
                       "vendor": null
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
@@ -1711,24 +1711,24 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": "webkit",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "all",
                       "vendor": null
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
@@ -1738,24 +1738,24 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": "o",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "all",
                       "vendor": null
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
@@ -1765,24 +1765,24 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "all",
                       "vendor": null
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]

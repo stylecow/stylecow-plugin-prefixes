@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -19,71 +19,71 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "linear-gradient",
                       "vendor": "moz",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "left",
                               "vendor": null
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rgba",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 20
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 10
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0.5
                                     }
                                   ]
@@ -93,10 +93,10 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "blue",
                               "vendor": null
                             }
@@ -109,68 +109,68 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "linear-gradient",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "left",
                               "vendor": null
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rgba",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 20
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 10
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0.5
                                     }
                                   ]
@@ -180,10 +180,10 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "blue",
                               "vendor": null
                             }
@@ -196,68 +196,68 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "linear-gradient",
                       "vendor": "o",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "left",
                               "vendor": null
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rgba",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 20
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 10
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0.5
                                     }
                                   ]
@@ -267,10 +267,10 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "blue",
                               "vendor": null
                             }
@@ -283,73 +283,73 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "linear-gradient",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "to",
                               "vendor": null
                             },
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "right",
                               "vendor": null
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "rgba",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 20
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 10
                                     }
                                   ]
                                 },
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 0.5
                                     }
                                   ]
@@ -359,10 +359,10 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "blue",
                               "vendor": null
                             }
