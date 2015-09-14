@@ -7,49 +7,84 @@
       "vendor": "moz",
       "children": [
         {
-          "type": "Function",
-          "name": "url",
-          "vendor": null,
+          "type": "Value",
           "children": [
             {
-              "type": "String",
-              "name": "http://www.w3.org/"
-            }
-          ]
-        },
-        {
-          "type": "Function",
-          "name": "url-prefix",
-          "vendor": null,
-          "children": [
-            {
-              "type": "String",
-              "name": "http://www.w3.org/Style/"
-            }
-          ]
-        },
-        {
-          "type": "Function",
-          "name": "domain",
-          "vendor": null,
-          "children": [
-            {
-              "type": "String",
-              "name": "mozilla.org"
-            }
-          ]
-        },
-        {
-          "type": "Function",
-          "name": "regexp",
-          "vendor": null,
-          "children": [
-            {
-              "type": "Value",
+              "type": "Function",
+              "name": "url",
+              "vendor": null,
               "children": [
                 {
-                  "type": "String",
-                  "name": "https:.*"
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "http://www.w3.org/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "url-prefix",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "http://www.w3.org/Style/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "domain",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "mozilla.org"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "regexp",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "https:.*"
+                    }
+                  ]
                 }
               ]
             }
@@ -126,46 +161,84 @@
       "vendor": null,
       "children": [
         {
-          "type": "Function",
-          "name": "url",
+          "type": "Value",
           "children": [
             {
-              "type": "String",
-              "name": "http://www.w3.org/"
-            }
-          ]
-        },
-        {
-          "type": "Function",
-          "name": "url-prefix",
-          "children": [
-            {
-              "type": "String",
-              "name": "http://www.w3.org/Style/"
-            }
-          ]
-        },
-        {
-          "type": "Function",
-          "name": "domain",
-          "children": [
-            {
-              "type": "String",
-              "name": "mozilla.org"
-            }
-          ]
-        },
-        {
-          "type": "Function",
-          "name": "regexp",
-          "vendor": null,
-          "children": [
-            {
-              "type": "Value",
+              "type": "Function",
+              "name": "url",
+              "vendor": null,
               "children": [
                 {
-                  "type": "String",
-                  "name": "https:.*"
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "http://www.w3.org/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "url-prefix",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "http://www.w3.org/Style/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "domain",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "mozilla.org"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "regexp",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "https:.*"
+                    }
+                  ]
                 }
               ]
             }

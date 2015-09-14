@@ -15,10 +15,10 @@
           "type": "Block",
           "children": [
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",
@@ -158,10 +158,10 @@
               ]
             },
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",
@@ -318,10 +318,10 @@
           "type": "Block",
           "children": [
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",
@@ -461,10 +461,10 @@
               ]
             },
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",
@@ -621,10 +621,10 @@
           "type": "Block",
           "children": [
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",
@@ -764,10 +764,10 @@
               ]
             },
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",
@@ -924,10 +924,10 @@
           "type": "Block",
           "children": [
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",
@@ -1244,10 +1244,10 @@
               ]
             },
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Unit",

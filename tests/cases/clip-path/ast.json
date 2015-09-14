@@ -35,8 +35,13 @@
                       "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "shape"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "shape"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -55,10 +60,16 @@
                     {
                       "type": "Function",
                       "name": "url",
+                      "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "shape"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "shape"
+                            }
+                          ]
                         }
                       ]
                     }

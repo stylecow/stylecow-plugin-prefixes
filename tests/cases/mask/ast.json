@@ -35,8 +35,13 @@
                       "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "images/mymask.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "images/mymask.png"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -55,10 +60,16 @@
                     {
                       "type": "Function",
                       "name": "url",
+                      "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "images/mymask.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "images/mymask.png"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -104,8 +115,13 @@
                       "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "mask.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "mask.png"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -164,10 +180,16 @@
                     {
                       "type": "Function",
                       "name": "url",
+                      "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "mask.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "mask.png"
+                            }
+                          ]
                         }
                       ]
                     },

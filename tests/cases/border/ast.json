@@ -392,8 +392,13 @@
                       "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "/images/border.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "/images/border.png"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -428,8 +433,13 @@
                       "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "/images/border.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "/images/border.png"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -464,8 +474,13 @@
                       "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "/images/border.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "/images/border.png"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -497,10 +512,16 @@
                     {
                       "type": "Function",
                       "name": "url",
+                      "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "/images/border.png"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "/images/border.png"
+                            }
+                          ]
                         }
                       ]
                     },
