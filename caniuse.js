@@ -35,6 +35,7 @@ var features = {
     'css-text-align-last': require('caniuse-db/features-json/css-text-align-last.json'),
     'css-touch-action': require('caniuse-db/features-json/css-touch-action.json'),
     'css-transitions': require('caniuse-db/features-json/css-transitions.json'),
+    'css-writing-mode': require('caniuse-db/features-json/css-writing-mode.json'),
     'css3-boxsizing': require('caniuse-db/features-json/css3-boxsizing.json'),
     'css3-cursors-newer': require('caniuse-db/features-json/css3-cursors-newer.json'),
     'css3-tabsize': require('caniuse-db/features-json/css3-tabsize.json'),

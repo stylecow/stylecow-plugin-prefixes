@@ -469,6 +469,57 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "Declaration",
+              "name": "writing-mode",
+              "vendor": "ms",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "horizontal-tb",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "writing-mode",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "horizontal-tb",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "writing-mode",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "horizontal-tb",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

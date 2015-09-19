@@ -8,4 +8,5 @@ article {
 	text-size-adjust: 80%;
 	text-overflow: ellisis;
 	font-kerning: none;
+	writing-mode: horizontal-tb;
 }

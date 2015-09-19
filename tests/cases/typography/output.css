@@ -24,4 +24,7 @@ article {
 	text-overflow: ellisis;
 	-webkit-font-kerning: none;
 	font-kerning: none;
+	-ms-writing-mode: horizontal-tb;
+	-webkit-writing-mode: horizontal-tb;
+	writing-mode: horizontal-tb;
 }
