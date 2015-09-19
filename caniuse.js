@@ -13,6 +13,7 @@ var features = {
     'css-crisp-edges': require('caniuse-db/features-json/css-crisp-edges.json'),
     'css-deviceadaptation': require('caniuse-db/features-json/css-deviceadaptation.json'),
     'css-exclusions': require('caniuse-db/features-json/css-exclusions.json'),
+    'css-element-function': require('caniuse-db/features-json/css-element-function.json'),
     'css-filters': require('caniuse-db/features-json/css-filters.json'),
     'css-gradients': require('caniuse-db/features-json/css-gradients.json'),
     'css-grid': require('caniuse-db/features-json/css-grid.json'),

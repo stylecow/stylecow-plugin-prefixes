@@ -54,6 +54,7 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css-clip-path', addDeclarationVendor, 'clip-path');
     caniuse.forEachVendor('css-crisp-edges', addDeclarationChildVendor, 'image-rendering', 'Keyword', 'crisp-edges');
     caniuse.forEachVendor('css-deviceadaptation', addAtRuleVendor, 'viewport');
+    caniuse.forEachVendor('css-element-function', addFunctionVendor, 'element');
     caniuse.forEachVendor('css-exclusions', addDeclarationVendor, ['wrap-flow', 'wrap-through']);
     caniuse.forEachVendor('css-filters', addDeclarationVendor, 'filter');
     caniuse.forEachVendor('css-gradients', addGradientVendorPrefix, ['linear-gradient', 'radial-gradient']);
