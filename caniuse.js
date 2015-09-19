@@ -7,6 +7,7 @@ var features = {
     'calc': require('caniuse-db/features-json/calc.json'),
     'css-animation': require('caniuse-db/features-json/css-animation.json'),
     'css-appearance': require('caniuse-db/features-json/css-appearance.json'),
+    'css-backdrop-filter': require('caniuse-db/features-json/css-backdrop-filter.json'),
     'css-boxdecorationbreak': require('caniuse-db/features-json/css-boxdecorationbreak.json'),
     'css-boxshadow': require('caniuse-db/features-json/css-boxshadow.json'),
     'css-clip-path': require('caniuse-db/features-json/css-clip-path.json'),

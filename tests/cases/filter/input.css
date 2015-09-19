@@ -1,3 +1,5 @@
 .element {
     background: filter(url(path/to/img.jpg), blur(5px));
+    backdrop-filter: blur(10px);
+    filter: blur(10px);
 }

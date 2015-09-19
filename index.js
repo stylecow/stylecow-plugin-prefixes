@@ -49,6 +49,7 @@ module.exports = function (tasks) {
     ]);
 
     caniuse.forEachVendor('css-appearance', addDeclarationVendor, 'appearance');
+    caniuse.forEachVendor('css-backdrop-filter', addDeclarationVendor, 'backdrop-filter');
     caniuse.forEachVendor('css-boxdecorationbreak', addDeclarationVendor, 'box-decoration-break');
     caniuse.forEachVendor('css-boxshadow', addDeclarationVendor, 'box-shadow');
     caniuse.forEachVendor('css-clip-path', addDeclarationVendor, 'clip-path');
