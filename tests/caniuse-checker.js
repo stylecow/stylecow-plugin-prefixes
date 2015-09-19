@@ -29,7 +29,7 @@ fs.readdirSync(featuresDir).forEach(function (featName) {
 	}
 
 	// is implemented already
-	if (caniuse.data[featName]) {
+	if (caniuse.data.has(featName)) {
 		return;
 	}
 
