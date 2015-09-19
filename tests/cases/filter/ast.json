@@ -1,0 +1,163 @@
+{
+  "type": "Root",
+  "children": [
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "ClassSelector",
+                  "name": "element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Function",
+                      "name": "filter",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "url",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "String",
+                                      "name": "path/to/img.jpg"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "blur",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "Unit",
+                                      "name": "px",
+                                      "children": [
+                                        {
+                                          "type": "Number",
+                                          "name": 5
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Function",
+                      "name": "filter",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "url",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "String",
+                                      "name": "path/to/img.jpg"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "blur",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "Unit",
+                                      "name": "px",
+                                      "children": [
+                                        {
+                                          "type": "Number",
+                                          "name": 5
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

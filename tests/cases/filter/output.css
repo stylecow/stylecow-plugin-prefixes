@@ -1,0 +1,4 @@
+.element {
+	background: -webkit-filter(url("path/to/img.jpg"), blur(5px));
+	background: filter(url("path/to/img.jpg"), blur(5px));
+}

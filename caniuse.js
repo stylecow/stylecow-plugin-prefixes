@@ -15,6 +15,7 @@ var features = {
     'css-exclusions': require('caniuse-db/features-json/css-exclusions.json'),
     'css-element-function': require('caniuse-db/features-json/css-element-function.json'),
     'css-filters': require('caniuse-db/features-json/css-filters.json'),
+    'css-filter-function': require('caniuse-db/features-json/css-filter-function.json'),
     'css-gradients': require('caniuse-db/features-json/css-gradients.json'),
     'css-grid': require('caniuse-db/features-json/css-grid.json'),
     'css-hyphens': require('caniuse-db/features-json/css-hyphens.json'),
