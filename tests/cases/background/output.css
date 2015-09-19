@@ -11,4 +11,6 @@ div {
 	-webkit-background-clip: border-box;
 	-o-background-clip: border-box;
 	background-clip: border-box;
+	background-image: -webkit-cross-fade(url("logo-box.png"), url("logo-bare.png"), 0%);
+	background-image: cross-fade(url("logo-box.png"), url("logo-bare.png"), 0%);
 }

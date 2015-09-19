@@ -10,6 +10,7 @@ var features = {
     'css-backdrop-filter': require('caniuse-db/features-json/css-backdrop-filter.json'),
     'css-boxdecorationbreak': require('caniuse-db/features-json/css-boxdecorationbreak.json'),
     'css-boxshadow': require('caniuse-db/features-json/css-boxshadow.json'),
+    'css-cross-fade': require('caniuse-db/features-json/css-cross-fade.json'),
     'css-clip-path': require('caniuse-db/features-json/css-clip-path.json'),
     'css-crisp-edges': require('caniuse-db/features-json/css-crisp-edges.json'),
     'css-deviceadaptation': require('caniuse-db/features-json/css-deviceadaptation.json'),

@@ -54,6 +54,7 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css-boxshadow', addDeclarationVendor, 'box-shadow');
     caniuse.forEachVendor('css-clip-path', addDeclarationVendor, 'clip-path');
     caniuse.forEachVendor('css-crisp-edges', addDeclarationChildVendor, 'image-rendering', 'Keyword', 'crisp-edges');
+    caniuse.forEachVendor('css-cross-fade', addFunctionVendor, 'cross-fade');
     caniuse.forEachVendor('css-deviceadaptation', addAtRuleVendor, 'viewport');
     caniuse.forEachVendor('css-element-function', addFunctionVendor, 'element');
     caniuse.forEachVendor('css-exclusions', addDeclarationVendor, ['wrap-flow', 'wrap-through']);

@@ -224,6 +224,158 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-image",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Function",
+                      "name": "cross-fade",
+                      "vendor": "webkit",
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "url",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "String",
+                                      "name": "logo-box.png"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "url",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "String",
+                                      "name": "logo-bare.png"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Unit",
+                              "name": "%",
+                              "children": [
+                                {
+                                  "type": "Number",
+                                  "name": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "background-image",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Function",
+                      "name": "cross-fade",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "url",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "String",
+                                      "name": "logo-box.png"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "url",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "String",
+                                      "name": "logo-bare.png"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Unit",
+                              "name": "%",
+                              "children": [
+                                {
+                                  "type": "Number",
+                                  "name": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
