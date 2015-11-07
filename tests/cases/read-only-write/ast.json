@@ -1,0 +1,185 @@
+{
+  "type": "Root",
+  "children": [
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "TypeSelector",
+                  "name": "input"
+                },
+                {
+                  "type": "PseudoClass",
+                  "name": "read-write",
+                  "vendor": "moz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Hex",
+                      "name": "eee"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "TypeSelector",
+                  "name": "input"
+                },
+                {
+                  "type": "PseudoClass",
+                  "name": "read-write",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Hex",
+                      "name": "eee"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "TypeSelector",
+                  "name": "input"
+                },
+                {
+                  "type": "PseudoClass",
+                  "name": "read-only",
+                  "vendor": "moz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Hex",
+                      "name": "eee"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "TypeSelector",
+                  "name": "input"
+                },
+                {
+                  "type": "PseudoClass",
+                  "name": "read-only",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Hex",
+                      "name": "eee"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

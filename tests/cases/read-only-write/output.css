@@ -1,0 +1,12 @@
+input:-moz-read-write {
+	background: #eee;
+}
+input:read-write {
+	background: #eee;
+}
+input:-moz-read-only {
+	background: #eee;
+}
+input:read-only {
+	background: #eee;
+}

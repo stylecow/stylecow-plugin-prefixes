@@ -27,6 +27,7 @@ var features = new Map();
     'css-logical-props',
     'css-masks',
     'css-placeholder',
+    'css-read-only-write',
     'css-regions',
     'css-repeating-gradients',
     'css-resize',

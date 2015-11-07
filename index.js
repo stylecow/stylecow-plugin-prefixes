@@ -158,6 +158,7 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css-repeating-gradients', addGradientVendorPrefix, ['repeating-linear-gradient', 'repeating-radial-gradient']);
     caniuse.forEachVendor('css-resize', addDeclarationVendor, 'resize');
     caniuse.forEachVendor('css-selection', addSelectorChildVendor, 'PseudoElement', 'selection');
+    caniuse.forEachVendor('css-read-only-write', addSelectorChildVendor, 'PseudoClass', ['read-write', 'read-only']);
     caniuse.forEachVendor('css-shapes', addDeclarationVendor, ['shape-outside', 'shape-image-threshold', 'shape-margin']);
     caniuse.forEachVendor('css-snappoints', addDeclarationVendor, [
         'scroll-snap-type',
