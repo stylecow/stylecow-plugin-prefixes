@@ -520,6 +520,40 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "Declaration",
+              "name": "text-spacing",
+              "vendor": "ms",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "normal",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "text-spacing",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "normal",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

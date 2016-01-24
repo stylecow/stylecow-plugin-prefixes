@@ -9,4 +9,5 @@ article {
 	text-overflow: ellisis;
 	font-kerning: none;
 	writing-mode: horizontal-tb;
+	text-spacing: normal;
 }

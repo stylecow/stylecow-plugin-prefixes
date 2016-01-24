@@ -169,10 +169,12 @@ module.exports = function (tasks) {
     ]);
     caniuse.forEachVendor('css-sticky', addDeclarationChildVendor, 'position', 'Keyword', 'sticky');
     caniuse.forEachVendor('css-text-align-last', addDeclarationVendor, 'text-align-last');
+    caniuse.forEachVendor('css-text-spacing', addDeclarationVendor, 'text-spacing');
     caniuse.forEachVendor('css-touch-action', addDeclarationVendor, 'touch-action');
     caniuse.forEachVendor('css-writing-mode', addDeclarationVendor, 'writing-mode');
     caniuse.forEachVendor('css3-boxsizing', addDeclarationVendor, 'box-sizing');
-    caniuse.forEachVendor('css3-cursors-newer', addDeclarationChildVendor, 'cursor', 'Keyword', ['zoom-in', 'zoom-out', 'grab', 'grabbing']);
+    caniuse.forEachVendor('css3-cursors-newer', addDeclarationChildVendor, 'cursor', 'Keyword', ['zoom-in', 'zoom-out']);
+    caniuse.forEachVendor('css3-cursors-grab', addDeclarationChildVendor, 'cursor', 'Keyword', ['grab', 'grabbing']);
     caniuse.forEachVendor('css3-tabsize', addDeclarationVendor, 'tab-size');
     caniuse.forEachVendor('flexbox', true, addDeclarationChildVendor, 'display', 'Keyword', ['flex', 'inline-flex']);
     caniuse.forEachVendor('flexbox', true, addDeclarationVendor, [
