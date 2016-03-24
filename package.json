@@ -21,6 +21,9 @@
     "mocha": "^2.4.5",
     "stylecow-core": "^2.3.0"
   },
+  "peerDependencies": {
+    "stylecow-core": "^2.3.0"
+  },
   "license": "MIT",
   "dependencies": {
     "caniuse-db": "^1.0.30000436"
