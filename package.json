@@ -18,11 +18,11 @@
     "caniuse": "node test/caniuser-checker.js"
   },
   "devDependencies": {
-    "mocha": "^2.3.4",
-    "stylecow-core": "^2.2.2"
+    "mocha": "^2.4.5",
+    "stylecow-core": "^2.3.0"
   },
   "license": "MIT",
   "dependencies": {
-    "caniuse-db": "^1.0.30000391"
+    "caniuse-db": "^1.0.30000436"
   }
 }

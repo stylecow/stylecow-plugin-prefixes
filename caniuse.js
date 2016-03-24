@@ -24,6 +24,7 @@ var features = new Map();
     'css-grid',
     'css-hyphens',
     'css-image-set',
+    'css-line-clamp',
     'css-logical-props',
     'css-masks',
     'css-placeholder',

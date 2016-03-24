@@ -1,0 +1,4 @@
+div {
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+}

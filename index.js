@@ -83,6 +83,7 @@ module.exports = function (tasks) {
     ]);
     caniuse.forEachVendor('css-hyphens', addDeclarationVendor, 'hyphens');
     caniuse.forEachVendor('css-image-set', addDeclarationChildVendor, ['background', 'background-image'], 'Function', 'image-set');
+    caniuse.forEachVendor('css-line-clamp', addDeclarationVendor, 'line-clamp');
     caniuse.forEachVendor('css-logical-props', addDeclarationVendor, [
         'block-size',
         'inline-size',
