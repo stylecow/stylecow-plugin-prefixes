@@ -1,4 +1,4 @@
 div {
-	-webkit-clip-path: url("shape");
-	clip-path: url("shape");
+	-webkit-clip-path: url("#shape");
+	clip-path: url("#shape");
 }

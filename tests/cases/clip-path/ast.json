@@ -39,7 +39,7 @@
                           "children": [
                             {
                               "type": "String",
-                              "name": "shape"
+                              "name": "#shape"
                             }
                           ]
                         }
@@ -67,7 +67,7 @@
                           "children": [
                             {
                               "type": "String",
-                              "name": "shape"
+                              "name": "#shape"
                             }
                           ]
                         }
