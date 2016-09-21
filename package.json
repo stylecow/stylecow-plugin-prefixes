@@ -1,7 +1,7 @@
 {
   "name": "stylecow-plugin-prefixes",
   "description": "Stylecow plugin to add vendor prefixes automatically.",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "engines": {
     "node": ">=4.0"
   },
@@ -15,10 +15,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/cases.js",
-    "caniuse": "node test/caniuser-checker.js"
+    "caniuse": "node tests/caniuse-checker.js"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
+    "mocha": "^3.0.2",
     "stylecow-core": "^2.3.0"
   },
   "peerDependencies": {
