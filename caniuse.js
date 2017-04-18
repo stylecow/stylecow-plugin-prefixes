@@ -17,6 +17,7 @@ var features = new Map();
     'css-clip-path',
     'css-crisp-edges',
     'css-deviceadaptation',
+    'css-dir-pseudo',
     'css-exclusions',
     'css-element-function',
     'css-filters',

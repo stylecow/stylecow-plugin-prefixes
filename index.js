@@ -140,6 +140,7 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css-resize', addDeclarationVendor, 'resize');
     caniuse.forEachVendor('css-selection', addSelectorChildVendor, 'PseudoElement', 'selection');
     caniuse.forEachVendor('css-any-link', addSelectorChildVendor, 'PseudoClass', 'any-link');
+    caniuse.forEachVendor('css-dir-pseudo', addSelectorChildVendor, 'PseudoClass', 'dir');
     caniuse.forEachVendor('css-read-only-write', addSelectorChildVendor, 'PseudoClass', ['read-write', 'read-only']);
     caniuse.forEachVendor('css-shapes', addDeclarationVendor, ['shape-outside', 'shape-image-threshold', 'shape-margin']);
     caniuse.forEachVendor('css-snappoints', addDeclarationVendor, [

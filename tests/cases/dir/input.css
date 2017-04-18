@@ -1,0 +1,7 @@
+:dir(rtl) {
+	color: blue;
+}
+
+article:dir(ltr) {
+	color: blue;
+}

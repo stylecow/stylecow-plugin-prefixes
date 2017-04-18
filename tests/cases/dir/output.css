@@ -1,0 +1,12 @@
+:-moz-dir(rtl) {
+	color: blue;
+}
+:dir(rtl) {
+	color: blue;
+}
+article:-moz-dir(ltr) {
+	color: blue;
+}
+article:dir(ltr) {
+	color: blue;
+}
