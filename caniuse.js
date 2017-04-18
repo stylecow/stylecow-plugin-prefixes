@@ -25,6 +25,7 @@ var features = new Map();
     'css-gradients',
     'css-hyphens',
     'css-image-set',
+    'css-initial-letter',
     'css-line-clamp',
     'css-logical-props',
     'css-masks',

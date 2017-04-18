@@ -1,0 +1,7 @@
+p::first-letter {
+  initial-letter: 2;
+}
+
+::first-letter {
+  initial-letter: 3;
+}
