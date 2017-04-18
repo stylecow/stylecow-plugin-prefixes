@@ -11,6 +11,7 @@ var notImplemented = [
 	'css-scrollbar',        //non standard
 	'css-grid',             //hard (or impossible) to implement
 	'text-stroke',          //non standard
+	'css-touch-action-2',   //it's covered by "css-touch-action"
 ];
 
 fs.readdirSync(featuresDir).forEach(function (featName) {
