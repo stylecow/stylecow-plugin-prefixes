@@ -61,26 +61,6 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css-filters', addDeclarationVendor, 'filter');
     caniuse.forEachVendor('css-filter-function', addFunctionVendor, 'filter');
     caniuse.forEachVendor('css-gradients', addGradientVendorPrefix, ['linear-gradient', 'radial-gradient']);
-    caniuse.forEachVendor('css-grid', addDeclarationChildVendor, 'display', 'Keyword', 'grid');
-    caniuse.forEachVendor('css-grid', addDeclarationVendor, [
-        'grid',
-        'grid-template',
-        'grid-template-columns',
-        'grid-template-rows',
-        'grid-template-areas',
-        'grid-auto-columns',
-        'grid-auto-rows',
-        'grid-auto-flow',
-        'grid-row-start',
-        'grid-column-start',
-        'grid-row-end',
-        'grid-column-end',
-        'grid-row',
-        'grid-column',
-        'grid-area',
-        'row-gap',
-        'grid-gap',
-    ]);
     caniuse.forEachVendor('css-hyphens', addDeclarationVendor, 'hyphens');
     caniuse.forEachVendor('css-image-set', addDeclarationChildVendor, ['background', 'background-image'], 'Function', 'image-set');
     caniuse.forEachVendor('css-line-clamp', addDeclarationVendor, 'line-clamp');
@@ -159,6 +139,7 @@ module.exports = function (tasks) {
     caniuse.forEachVendor('css-repeating-gradients', addGradientVendorPrefix, ['repeating-linear-gradient', 'repeating-radial-gradient']);
     caniuse.forEachVendor('css-resize', addDeclarationVendor, 'resize');
     caniuse.forEachVendor('css-selection', addSelectorChildVendor, 'PseudoElement', 'selection');
+    caniuse.forEachVendor('css-any-link', addSelectorChildVendor, 'PseudoClass', 'any-link');
     caniuse.forEachVendor('css-read-only-write', addSelectorChildVendor, 'PseudoClass', ['read-write', 'read-only']);
     caniuse.forEachVendor('css-shapes', addDeclarationVendor, ['shape-outside', 'shape-image-threshold', 'shape-margin']);
     caniuse.forEachVendor('css-snappoints', addDeclarationVendor, [

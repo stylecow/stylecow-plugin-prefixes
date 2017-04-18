@@ -9,6 +9,7 @@ var notImplemented = [
 	'css-matches-pseudo',   //fallback in stylecow-plugin-matches
 	'font-smooth',          //non standard
 	'css-scrollbar',        //non standard
+	'css-grid',             //hard (or impossible) to implement
 	'text-stroke',          //non standard
 ];
 

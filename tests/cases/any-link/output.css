@@ -1,0 +1,36 @@
+:-moz-any-link {
+	color: blue;
+}
+:-webkit-any-link {
+	color: blue;
+}
+:any-link {
+	color: blue;
+}
+article :-moz-any-link {
+	color: blue;
+}
+article :-webkit-any-link {
+	color: blue;
+}
+article :any-link {
+	color: blue;
+}
+a:-moz-any-link {
+	color: blue;
+}
+a:-webkit-any-link {
+	color: blue;
+}
+a:any-link {
+	color: blue;
+}
+article a:-moz-any-link {
+	color: blue;
+}
+article a:-webkit-any-link {
+	color: blue;
+}
+article a:any-link {
+	color: blue;
+}
