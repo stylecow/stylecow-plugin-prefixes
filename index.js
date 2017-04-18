@@ -376,7 +376,7 @@ module.exports = function (tasks) {
             },
             position: 'before',
             fn: function (atrule) {
-                atrule.cloneBefore().setVendor(task.vendor).normalizeVendors();
+                atrule.remove();
             }
         });
 
